@@ -1,0 +1,448 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #faf9f6;
+    color: #1a1a1a;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, sans-serif;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1.2rem;
+  }
+
+  .container {
+    max-width: 820px;
+    width: 100%;
+  }
+
+  /* ----- navigation & language ----- */
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 0.9rem;
+  }
+
+  .back-home a {
+    color: #6b6b6b;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .back-home a:hover {
+    color: #1a1a1a;
+  }
+
+  .lang-switch a {
+    color: #6b6b6b;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+
+  .lang-switch a.active {
+    color: #1a1a1a;
+    font-weight: 500;
+    border-bottom: 1px solid #1a1a1a;
+  }
+
+  /* ----- hero / cover area ----- */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .book-title {
+    font-size: 2.8rem;
+    font-weight: 470;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+  }
+
+  .book-subtitle {
+    font-size: 1.2rem;
+    font-weight: 350;
+    color: #5a5a5a;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+
+  .author-name {
+    font-size: 1rem;
+    color: #6b6b6b;
+    margin-bottom: 2rem;
+  }
+
+  .cover-block-id {
+    width: 220px;
+    height: 280px;
+    background: #eaeae5;
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b6b6b;
+    font-style: italic;
+    font-size: 0.9rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+    margin-bottom: 2rem;
+    background-image: url("https://cahyanudien.github.io/hening-yang-berjalan/assets/cover-id.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cover-block-en {
+    width: 220px;
+    height: 280px;
+    background: #eaeae5;
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b6b6b;
+    font-style: italic;
+    font-size: 0.9rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+    margin-bottom: 2rem;
+    background-image: url("https://cahyanudien.github.io/hening-yang-berjalan/assets/cover-en.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .pull-quote {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #2c2c2c;
+    max-width: 580px;
+    margin: 1.8rem auto;
+    border-left: 4px solid #c9c9c9;
+    padding-left: 1.8rem;
+    text-align: left;
+    font-weight: 350;
+  }
+
+  /* ----- info cards (minimal stats) ----- */
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 2.5rem 0 3rem 0;
+  }
+
+  .info-card {
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 24px;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.01);
+  }
+
+  .info-label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #8a8a8a;
+    margin-bottom: 0.3rem;
+  }
+
+  .info-value {
+    font-size: 0.95rem;
+    font-weight: 450;
+    color: #1a1a1a;
+  }
+
+  /* ----- youtube embed (responsive) ----- */
+  .video-wrapper {
+    margin: 2.5rem 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    background: #111;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  /* ----- purchase cards (kindle, apple books, github) ----- */
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: 480;
+    margin: 2.5rem 0 1.2rem 0;
+    letter-spacing: -0.01em;
+  }
+
+  .purchase-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    margin: 1.5rem 0;
+  }
+
+  .purchase-card {
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 24px;
+    padding: 1.5rem 1rem;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.2s;
+  }
+
+  .purchase-card:hover {
+    border-color: #a0a0a0;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px -12px rgba(0, 0, 0, 0.15);
+  }
+
+  .purchase-card.disabled-card {
+    background: #f5f5f5 !important;
+    color: #999 !important;
+  }
+
+  .purchase-card.disabled-card:hover {
+    border-color: red !important;
+    background: #ffeeee !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .unavailable-badge {
+    display: none;
+    background: #ff4444;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .purchase-card.disabled-card:hover .unavailable-badge {
+    display: inline-block;
+  }
+
+  .purchase-icon {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    opacity: 0.8;
+  }
+
+  .purchase-title {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .purchase-sub {
+    font-size: 0.75rem;
+    color: #6b6b6b;
+  }
+
+  /* ----- cards (intro, outro) ----- */
+  .intro-card,
+  .outro-card {
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 28px;
+    padding: 2rem 2.2rem;
+    margin: 2.5rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+  }
+
+  .intro-card p,
+  .outro-card p {
+    font-size: 1.05rem;
+    color: #2c2c2c;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+
+  .intro-card .attribution,
+  .outro-card .attribution {
+    font-size: 0.85rem;
+    color: #8a8a8a;
+    font-style: normal;
+    margin-top: 0.8rem;
+  }
+
+  /* ----- TOC with mobile scroll fix (shows all content) ----- */
+  .toc-full {
+    background: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 28px;
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+
+  .toc-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 1.8rem;
+  }
+
+  .toc-part h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    color: #1a1a1a;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+
+  .toc-part ul {
+    list-style: none;
+  }
+
+  .toc-part li {
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    margin-bottom: 0.7rem;
+    padding-left: 0.5rem;
+    border-left: 1px solid transparent;
+    transition: border 0.1s;
+  }
+
+  .toc-part li:hover {
+    border-left-color: #a0a0a0;
+  }
+
+  /* mobile fix */
+  @media (max-width: 600px) {
+    .toc-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .purchase-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .info-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* author snippet */
+  .author-snippet {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    background: #f8f8f8;
+    border-radius: 40px;
+    padding: 0.8rem 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .author-avatar {
+    width: 48px;
+    height: 48px;
+    background: #e0e0e0;
+    border-radius: 50%;
+    background-image: url("https://avatars.githubusercontent.com/cahyanudien");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ddd;
+    flex-shrink: 0;
+  }
+
+  /* ----- action buttons ----- */
+  .action-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  .btn-primary {
+    background: #1a1a1a;
+    color: white;
+    padding: 0.8rem 2.2rem;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    border: 1px solid #1a1a1a;
+    transition: 0.2s;
+  }
+
+  .btn-primary:hover {
+    background: #333;
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: #1a1a1a;
+    padding: 0.8rem 2.2rem;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    border: 1px solid #c0c0c0;
+    transition: 0.2s;
+  }
+
+  .btn-secondary:hover {
+    border-color: #1a1a1a;
+  }
+
+  .btn-secondary.disabled,
+  .btn-secondary:disabled {
+    background: #f5f5f5;
+    color: #aaa;
+    padding: 0.8rem 2.2rem;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    border: 1px solid #e0e0e0;
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.8;
+  }
+
+  .btn-secondary.disabled:hover,
+  .btn-secondary:disabled:hover {
+    border-color: #e0e0e0;
+    /* No hover change */
+    background: #f5f5f5;
+  }
+
+  /* footer */
+  .footer {
+    margin-top: 4rem;
+    font-size: 0.75rem;
+    color: #8f8f8f;
+    border-top: 1px solid #e2e2e2;
+    padding-top: 2rem;
+    text-align: center;
+  }
