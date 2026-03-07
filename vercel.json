@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "rewrites": [
+    {
+      "source": "/stillness-that-walks/(.*)",
+      "destination": "/stillness-that-walks/index.html"
+    },
+    {
+      "source": "/hening-yang-berjalan/(.*)",
+      "destination": "/hening-yang-berjalan/index.html"
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
