@@ -1,0 +1,10 @@
+# Allow all bots
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://cahyanudien.site/sitemap.xml
+
+# Disallow private paths (if any)
+Disallow: /private/
+Disallow: /admin/
