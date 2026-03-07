@@ -1,6 +1,6 @@
 import "./style.css";
 import { schemaData } from "./data/schema.js";
-import { projects, games, books } from "./data/cards.js";
+import { projects, games, books, profiles } from "./data/cards.js";
 import { profile } from "./data/profile.js";
 
 // Inject Schema.org JSON-LD
@@ -39,16 +39,25 @@ document.querySelector("#app").innerHTML = `
     </div>
 
     <!-- PROJECTS SECTION -->
-    <div class="section-label">📱 PROJECTS</div>
-    <div class="card-grid" id="projects-grid"></div>
+    <section>
+      <h2 class="section-label">📱 PROJECTS</h2>
+      <div class="card-grid" id="projects-grid"></div>
+    </section>
 
-    <!-- GAMES SECTION -->
-    <div class="section-label" style="margin-top: 1.8rem">🎮 GAMES</div>
-    <div class="card-grid" id="games-grid"></div>
+    <section>
+      <h2 class="section-label" style="margin-top: 1.8rem">🎮 GAMES</h2>
+      <div class="card-grid" id="games-grid"></div>
+    </section>
 
-    <!-- BOOKS SECTION -->
-    <div class="section-label" style="margin-top: 1.8rem">📚 BOOKS</div>
-    <div class="card-grid" id="books-grid"></div>
+    <section>
+      <h2 class="section-label" style="margin-top: 1.8rem">📚 BOOKS</h2>
+      <div class="card-grid" id="books-grid"></div>
+    </section>
+
+    <section>
+      <h2 class="section-label" style="margin-top: 1.8rem">🆔 PROFILES</h2>
+      <div class="card-grid" id="profiles-grid"></div>
+    </section>
 
     <!-- Quote -->
     <div class="quote-block">“${profile.quote}”</div>
@@ -96,3 +105,4 @@ function renderCards(containerId, items) {
 renderCards("projects-grid", projects);
 renderCards("games-grid", games);
 renderCards("books-grid", books);
+renderCards("profiles-grid", profiles);

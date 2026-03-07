@@ -29,6 +29,9 @@ export const schemaData = [
       "Node.js",
       "Full-Stack Development",
       "Privacy-First Design",
+      "Islamic Mobile Applications",
+      "Open Source Development",
+      "Digital Humanities",
     ],
     sameAs: [
       "https://flagodna.com",
@@ -37,7 +40,14 @@ export const schemaData = [
       "https://linkedin.com/in/cahyanudien",
       "https://www.wikidata.org/wiki/Q138566666",
       "https://orcid.org/0009-0007-5983-9221",
+      "https://en.wikiquote.org/wiki/Cahyanudien_Aziz_Saputra",
+      "https://www.researchgate.net/profile/Cahyanudien-Saputra-2",
     ],
+    award: ["Privacy-First App Developer 2025"],
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://www.google.com/search?q=Cahyanudien+Aziz+Saputra",
+    },
     subjectOf: [
       {
         "@type": "Book",
