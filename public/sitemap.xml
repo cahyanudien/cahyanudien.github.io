@@ -31,36 +31,4 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://cahyanudien.site/hening-yang-berjalan/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://cahyanudien.site/stillness-that-walks/"/>
   </url>
-
-  <!-- FlagoDNA (external but important) -->
-  <url>
-    <loc>https://flagodna.com/</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- GitHub Profile -->
-  <url>
-    <loc>https://github.com/cas8398</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- GitHub Sadaqah Code -->
-  <url>
-    <loc>https://github.com/Sadaqah-Code</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- LinkedIn -->
-  <url>
-    <loc>https://linkedin.com/in/cahyanudien</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
 </urlset>
