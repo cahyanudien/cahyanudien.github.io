@@ -1,6 +1,6 @@
 import "./style.css";
 import { schemaData } from "./data/schema.js";
-import { projects, games, books, profiles } from "./data/cards.js";
+import { projects, games, books, profiles, musics } from "./data/cards.js";
 import { profile } from "./data/profile.js";
 
 // Inject Schema.org JSON-LD
@@ -55,6 +55,11 @@ document.querySelector("#app").innerHTML = `
     </section>
 
     <section>
+      <h2 class="section-label" style="margin-top: 1.8rem">🎵 MUSIC</h2>
+      <div class="card-grid" id="music-grid"></div>
+    </section>
+
+    <section>
       <h2 class="section-label" style="margin-top: 1.8rem">🆔 PROFILES</h2>
       <div class="card-grid" id="profiles-grid"></div>
     </section>
@@ -76,28 +81,59 @@ document.querySelector("#app").innerHTML = `
 // Render cards from JSON data
 function renderCards(containerId, items) {
   const container = document.getElementById(containerId);
+
   container.innerHTML = items
-    .map(
-      (item) => `
-    <a
-      href="${item.url}"
-      class="card ${item.status === "live" ? "" : "disabled"} ${
+    .map((item) => {
+      // MULTI LINK MODE
+      if (item.links && item.links.length) {
+        const linksHTML = item.links
+          .map(
+            (link) => `
+              <a 
+                href="${link.url}" 
+                target="_blank" 
+                rel="noopener"
+                class="card-link multi-link"
+              >
+                ${link.platform} →
+              </a>
+            `
+          )
+          .join("");
+
+        return `
+          <div class="card multi ${item.status === "live" ? "" : "disabled"}">
+            <span class="card-title">${item.emoji} ${item.title}</span>
+            <span class="card-desc">${item.description}</span>
+
+            <div class="card-links-vertical">
+              ${linksHTML}
+            </div>
+          </div>
+        `;
+      }
+
+      // SINGLE LINK MODE
+      return `
+        <a
+          href="${item.url}"
+          class="card ${item.status === "live" ? "" : "disabled"} ${
         item.target === "same" ? "same-tab" : ""
       }"
-      ${
-        item.status === "live"
-          ? item.target === "same"
-            ? 'rel="noopener"'
-            : 'target="_blank" rel="noopener"'
-          : 'onclick="return false;"'
-      }
-    >
-      <span class="card-title">${item.emoji} ${item.title}</span>
-      <span class="card-desc">${item.description}</span>
-      <span class="card-link">${item.linkText} →</span>
-    </a>
-  `
-    )
+          ${
+            item.status === "live"
+              ? item.target === "same"
+                ? 'rel="noopener"'
+                : 'target="_blank" rel="noopener"'
+              : 'onclick="return false;"'
+          }
+        >
+          <span class="card-title">${item.emoji} ${item.title}</span>
+          <span class="card-desc">${item.description}</span>
+          <span class="card-link">${item.linkText} →</span>
+        </a>
+      `;
+    })
     .join("");
 }
 
@@ -106,3 +142,4 @@ renderCards("projects-grid", projects);
 renderCards("games-grid", games);
 renderCards("books-grid", books);
 renderCards("profiles-grid", profiles);
+renderCards("music-grid", musics);

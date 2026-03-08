@@ -226,3 +226,19 @@
         gap: 1.2rem;
         margin-bottom: 0.5rem;
       }
+
+      .card-links-vertical {
+        margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .card-links-vertical .card-link {
+        display: block;
+        font-size: 0.9em;
+      }
+
+      .card-links-vertical a:hover {
+        opacity: 0.7;
+      }

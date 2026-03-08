@@ -61,6 +61,30 @@ export const books = [
   },
 ];
 
+export const musics = [
+  {
+    emoji: "🎧",
+    title: "Introversoul",
+    description: "ambient · introspective soundscape",
+    links: [
+      {
+        platform: "Spotify",
+        url: "https://open.spotify.com/artist/4BN5wcsLXapCKgy4CzMjzf",
+      },
+      {
+        platform: "YouTube Music",
+        url: "https://music.youtube.com/channel/UCM_5i_cjiW96AvvGWY8PNgg",
+      },
+      {
+        platform: "Apple Music",
+        url: "https://music.apple.com/us/artist/introversoul/1877195012",
+      },
+    ],
+    target: "blank",
+    status: "live",
+  },
+];
+
 export const profiles = [
   {
     emoji: "👤",
