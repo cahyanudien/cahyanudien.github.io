@@ -1,7 +1,7 @@
 export const profile = {
   name: "Cahyanudien Aziz Saputra",
   tagline: "founder @ FlagoDNA · full-stack · author",
-  bio: "Building meaningful digital ecosystems since 2020. Scaled FlagoDNA to serve <strong>60K+ users</strong> across 15+ apps. Philosophy: <em>“Mlampah Ing Tresno”</em> — technology that works silently and purposefully.",
+  bio: "Developer and author building meaningful digital ecosystems since 2020. Creator of FlagoDNA, now serving <strong>60K+ users</strong> across 15+ apps. Philosophy: <em>“Mlampah Ing Tresno”</em> — technology that works silently and purposefully.",
   skills: "Full-stack · Flutter · Kotlin · React · Node.js",
   githubHandle: "github/cas8398",
   githubUrl: "https://github.com/cas8398",

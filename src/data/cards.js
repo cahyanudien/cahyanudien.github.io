@@ -59,6 +59,24 @@ export const books = [
     status: "live",
     target: "same",
   },
+  {
+    emoji: "📙",
+    title: "ACHE: What Kind of Life Is This?",
+    description: "fragmented prose · literary fiction (EN)",
+    url: "./ache-what-kind-of-life-is-this/",
+    linkText: "read",
+    status: "live",
+    target: "same",
+  },
+  {
+    emoji: "📕",
+    title: "ACHE: Hidup Seperti Apa Ini?",
+    description: "prosa fragmentaris · fiksi literer (ID)",
+    url: "./ache-hidup-seperti-apa-ini/",
+    linkText: "read",
+    status: "live",
+    target: "same",
+  },
 ];
 
 export const musics = [

@@ -125,6 +125,44 @@
     background-position: center;
   }
 
+  .cover-block-ache-1-id {
+    width: 220px;
+    height: 280px;
+    background: #eaeae5;
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b6b6b;
+    font-style: italic;
+    font-size: 0.9rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+    margin-bottom: 2rem;
+    background-image: url("https://cahyanudien.github.io/ache-hidup-seperti-apa-ini/assets/cover-id.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cover-block-ache-1-en {
+    width: 220px;
+    height: 280px;
+    background: #eaeae5;
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b6b6b;
+    font-style: italic;
+    font-size: 0.9rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+    margin-bottom: 2rem;
+    background-image: url("https://cahyanudien.github.io/ache-what-kind-of-life-is-this/assets/cover-en.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
   .pull-quote {
     font-size: 1.4rem;
     font-style: italic;

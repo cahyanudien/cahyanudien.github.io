@@ -21,7 +21,7 @@ export const schemaData = [
     ],
     url: "https://www.cahyanudien.site",
     description:
-      "Full-stack developer, founder of FlagoDNA, author of Stillness That Walks and Hening yang Berjalan. Building meaningful digital ecosystems since 2020. 60K+ users across 15+ apps. Philosophy: Mlampah Ing Tresno.",
+      "Full-stack developer, founder of FlagoDNA, author of Stillness That Walks, Hening yang Berjalan, ACHE: What Kind of Life Is This?, and ACHE: Hidup Seperti Apa Ini?. Building meaningful digital ecosystems since 2020. 60K+ users across 15+ apps. Philosophy: Mlampah Ing Tresno.",
     knowsAbout: [
       "Flutter",
       "Kotlin",
@@ -63,6 +63,14 @@ export const schemaData = [
         "@type": "Book",
         name: "Hening yang Berjalan",
       },
+      {
+        "@type": "Book",
+        name: "ACHE: What Kind of Life Is This?",
+      },
+      {
+        "@type": "Book",
+        name: "ACHE: Hidup Seperti Apa Ini?",
+      },
     ],
     hasOccupation: [
       {
@@ -82,7 +90,7 @@ export const schemaData = [
   {
     "@context": "https://schema.org",
     "@type": "Book",
-    "@id": "https://cahyanudien.github.io/stillness-that-walks/#book",
+    "@id": "https://cahyanudien.site/stillness-that-walks/#book",
     name: "Stillness That Walks",
     alternateName: "Stillness That Walks: message within message",
     author: {
@@ -92,7 +100,7 @@ export const schemaData = [
       url: "https://www.cahyanudien.site",
       sameAs: "https://www.wikidata.org/wiki/Q138566666",
     },
-    url: "https://cahyanudien.github.io/stillness-that-walks/",
+    url: "https://cahyanudien.site/stillness-that-walks/",
     genre: "Philosophical Poetry",
     inLanguage: "en",
     numberOfPages: 64,
@@ -116,7 +124,7 @@ export const schemaData = [
   {
     "@context": "https://schema.org",
     "@type": "Book",
-    "@id": "https://cahyanudien.github.io/hening-yang-berjalan/#book",
+    "@id": "https://cahyanudien.site/hening-yang-berjalan/#book",
     name: "Hening yang Berjalan",
     alternateName: "Hening yang Berjalan: pesan dalam pesan",
     author: {
@@ -126,7 +134,7 @@ export const schemaData = [
       url: "https://www.cahyanudien.site",
       sameAs: "https://www.wikidata.org/wiki/Q138566666",
     },
-    url: "https://cahyanudien.github.io/hening-yang-berjalan/",
+    url: "https://cahyanudien.site/hening-yang-berjalan/",
     genre: "Philosophical Poetry",
     inLanguage: "id",
     numberOfPages: 64,
@@ -138,6 +146,65 @@ export const schemaData = [
       {
         "@type": "Offer",
         url: "https://play.google.com/store/books/details?id=xOfFEQAAQBAJ",
+        seller: { "@type": "Organization", name: "Google Play Books" },
+      },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "@id": "https://cahyanudien.site/ache-hidup-seperti-apa-ini/#book",
+    name: "ACHE: Hidup Seperti Apa Ini?",
+    alternateName: "ACHE: Hidup Seperti Apa Ini? — 32 Fragmen Kehidupan Rei",
+    author: {
+      "@type": "Person",
+      "@id": "https://www.wikidata.org/wiki/Q138566666",
+      name: "Cahyanudien Aziz Saputra",
+      url: "https://www.cahyanudien.site",
+      sameAs: "https://www.wikidata.org/wiki/Q138566666",
+    },
+    url: "https://cahyanudien.site/ache-hidup-seperti-apa-ini/",
+    genre: "Literary Fiction",
+    inLanguage: "id",
+    numberOfPages: 133,
+    datePublished: "2026",
+    publisher: "Independently published",
+    description:
+      "32 fragmen pendek dari kehidupan Rei — seseorang yang bergerak di sebuah kota yang jarang menyadari bahwa ia ada. ACHE adalah prosa fragmentaris tentang kesalahan kecil, kebetulan yang sunyi, dan hari-hari yang tetap berjalan meskipun tidak ada yang benar-benar berubah.",
+    offers: [
+      {
+        "@type": "Offer",
+        url: "https://play.google.com/store/books/details?id=orPHEQAAQBAJ",
+        seller: { "@type": "Organization", name: "Google Play Books" },
+      },
+    ],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "@id": "https://cahyanudien.site/ache-what-kind-of-life-is-this/#book",
+    name: "ACHE: What Kind of Life Is This?",
+    alternateName:
+      "ACHE: What Kind of Life Is This? — 32 Fragments from the Life of Rei",
+    author: {
+      "@type": "Person",
+      "@id": "https://www.wikidata.org/wiki/Q138566666",
+      name: "Cahyanudien Aziz Saputra",
+      url: "https://www.cahyanudien.site",
+      sameAs: "https://www.wikidata.org/wiki/Q138566666",
+    },
+    url: "https://cahyanudien.site/ache-what-kind-of-life-is-this/",
+    genre: "Literary Fiction",
+    inLanguage: "en",
+    numberOfPages: 133,
+    datePublished: "2026",
+    publisher: "Independently published",
+    description:
+      "32 short fragments from the life of Rei — someone moving through a city that rarely notices he exists. ACHE is fragmented prose about small mistakes, quiet coincidences, and days that keep moving even when nothing truly changes.",
+    offers: [
+      {
+        "@type": "Offer",
+        url: "https://play.google.com/store/books/details?id=9dTHEQAAQBAJ",
         seller: { "@type": "Organization", name: "Google Play Books" },
       },
     ],
