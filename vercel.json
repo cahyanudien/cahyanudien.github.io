@@ -12,7 +12,18 @@
       "source": "/hening-yang-berjalan/(.*)",
       "destination": "/hening-yang-berjalan/index.html"
     },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/ache-what-kind-of-life-is-this/(.*)",
+      "destination": "/ache-what-kind-of-life-is-this/index.html"
+    },
+    {
+      "source": "/ache-hidup-seperti-apa-ini/(.*)",
+      "destination": "/ache-hidup-seperti-apa-ini/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ],
   "headers": [
     {
