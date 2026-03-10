@@ -1,34 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <!-- Main homepage -->
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
   <url>
     <loc>https://cahyanudien.site/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cahyanudien.site/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://cahyanudien.site/"/>
+
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cahyanudien.site/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://cahyanudien.site/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://cahyanudien.site/" />
   </url>
 
-  <!-- Stillness That Walks (English book) -->
+  <!-- Stillness That Walks (EN) -->
   <url>
     <loc>https://cahyanudien.site/stillness-that-walks/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cahyanudien.site/stillness-that-walks/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://cahyanudien.site/hening-yang-berjalan/"/>
+
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cahyanudien.site/stillness-that-walks/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://cahyanudien.site/stillness-that-walks/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://cahyanudien.site/hening-yang-berjalan/" />
   </url>
 
-  <!-- Hening yang Berjalan (Indonesian book) -->
+  <!-- Hening yang Berjalan (ID) -->
   <url>
     <loc>https://cahyanudien.site/hening-yang-berjalan/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://cahyanudien.site/hening-yang-berjalan/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cahyanudien.site/stillness-that-walks/"/>
+
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cahyanudien.site/stillness-that-walks/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://cahyanudien.site/hening-yang-berjalan/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://cahyanudien.site/stillness-that-walks/" />
   </url>
+
+  <!-- ACHE (EN) -->
+  <url>
+    <loc>https://cahyanudien.site/ache-what-kind-of-life-is-this/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cahyanudien.site/ache-what-kind-of-life-is-this/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://cahyanudien.site/ache-what-kind-of-life-is-this/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://cahyanudien.site/ache-hidup-seperti-apa-ini/" />
+  </url>
+
+  <!-- ACHE (ID) -->
+  <url>
+    <loc>https://cahyanudien.site/ache-hidup-seperti-apa-ini/</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cahyanudien.site/ache-what-kind-of-life-is-this/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://cahyanudien.site/ache-hidup-seperti-apa-ini/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://cahyanudien.site/ache-what-kind-of-life-is-this/" />
+  </url>
+
 </urlset>
