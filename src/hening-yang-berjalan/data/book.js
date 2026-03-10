@@ -49,8 +49,8 @@ export const bookData = {
       icon: "🍎",
       title: "Apple Books",
       subtitle: "iOS/macOS",
-      url: "#",
-      disabled: true,
+      url: "https://books.apple.com/us/book/hening-yang-berjalan/id6760232604",
+      disabled: false,
     },
   ],
 

@@ -49,8 +49,8 @@ export const bookData = {
       icon: "🍎",
       title: "Apple Books",
       subtitle: "iOS/macOS",
-      url: "#",
-      disabled: true,
+      url: "https://books.apple.com/us/book/stillness-that-walks/id6760230977",
+      disabled: false,
     },
   ],
 
