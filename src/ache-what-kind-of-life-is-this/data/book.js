@@ -22,7 +22,7 @@ export const bookData = {
   intro:
     "What happens if life never truly collapses — but never quite fits either? A train almost caught. A job application almost correct. A day that almost goes according to plan. ACHE is a book of 32 short fragments from the life of Rei — someone moving through a city that rarely notices he exists. This book is not a novel with a grand plot, not a collection of short stories with dramatic conflicts, and not poetry. ACHE is fragmentary prose about a life that often feels slightly off: small mistakes, quiet coincidences, and days that keep moving without major change. It may feel familiar to those who have waited in a waiting room until their number was gone, arrived somewhere only to find it already closed after a long trip, or eaten something that had already passed its time — and still called it enough. Rei keeps walking. Perhaps many people live that way too.",
 
-  videoUrl: "https://www.youtube.com/embed/TdQlQ9jzBZo",
+  videoUrl: "https://www.youtube.com/embed/8vuU5dlcYO0",
 
   purchaseLinks: [
     {
@@ -43,8 +43,7 @@ export const bookData = {
       icon: "🍎",
       title: "Apple Books",
       subtitle: "iOS / macOS",
-      url: "#",
-      disabled: true,
+      url: "https://books.apple.com/us/book/ache-what-kind-of-life-is-this/id6760345441",
     },
   ],
 
