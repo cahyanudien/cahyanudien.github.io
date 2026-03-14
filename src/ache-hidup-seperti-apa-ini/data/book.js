@@ -43,8 +43,8 @@ export const bookData = {
       icon: "🍎",
       title: "Apple Books",
       subtitle: "iOS / macOS",
-      url: "#",
-      disabled: true,
+      url: "https://books.apple.com/us/book/ache-hidup-seperti-apa-ini/id6760401307",
+      disabled: false,
     },
   ],
 
