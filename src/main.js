@@ -31,10 +31,22 @@ document.querySelector("#app").innerHTML = `
 
     <!-- Bio -->
     <div class="bio">
-      <p>${profile.bio}</p>
+      <p>
+        ${profile.bio}
+      </p>
+
       <p class="small-note">
         ${profile.skills} →
-        <a href="${profile.githubUrl}">${profile.githubHandle}</a>
+        <a href="${profile.githubUrl}" target="_blank" rel="noopener noreferrer">
+          ${profile.githubHandle}
+        </a>
+      </p>
+
+      <p class="small-note">
+        Learn more →
+        <a href="/cahyanudien-aziz-saputra/">
+          About Cahyanudien Aziz Saputra
+        </a>
       </p>
     </div>
 

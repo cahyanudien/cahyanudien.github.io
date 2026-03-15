@@ -21,6 +21,10 @@
       "destination": "/ache-hidup-seperti-apa-ini/index.html"
     },
     {
+      "source": "/cahyanudien-aziz-saputra/(.*)",
+      "destination": "/cahyanudien-aziz-saputra/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

@@ -17,6 +17,7 @@ export default defineConfig({
           "ache-what-kind-of-life-is-this/index.html"
         ),
         ache_id: resolve(__dirname, "ache-hidup-seperti-apa-ini/index.html"),
+        cahyanudien: resolve(__dirname, "cahyanudien-aziz-saputra/index.html"),
       },
     },
   },

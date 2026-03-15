@@ -20,8 +20,9 @@ export const schemaData = [
       },
     ],
     url: "https://www.cahyanudien.site",
+    image: "https://www.cahyanudien.site/avatar.jpg",
     description:
-      "Full-stack developer, founder of FlagoDNA, author of Stillness That Walks, Hening yang Berjalan, ACHE: What Kind of Life Is This?, and ACHE: Hidup Seperti Apa Ini?. Building meaningful digital ecosystems since 2020. 60K+ users across 15+ apps. Philosophy: Mlampah Ing Tresno.",
+      "Full-stack developer, founder of FlagoDNA, author of Stillness That Walks, Hening yang Berjalan, ACHE: What Kind of Life Is This?, and ACHE: Hidup Seperti Apa Ini?. Building meaningful digital ecosystems since 2020. 60K+ users across 15+ apps.",
     knowsAbout: [
       "Flutter",
       "Kotlin",
@@ -38,6 +39,8 @@ export const schemaData = [
       "https://github.com/cas8398",
       "https://github.com/cahyanudien",
       "https://linkedin.com/in/cahyanudien",
+      "https://instagram.com/cas8398",
+      "https://x.com/cas8398",
       "https://www.amazon.com/author/cahyanudien",
       "https://www.goodreads.com/author/show/69229893.Cahyanudien_Aziz_Saputra",
       "https://www.smashwords.com/profile/view/Cahyanudien_Aziz_Saputra/",
@@ -56,38 +59,18 @@ export const schemaData = [
     potentialAction: {
       "@type": "SearchAction",
       target: "https://www.google.com/search?q=Cahyanudien+Aziz+Saputra",
+      "query-input": "required name=search_term_string",
     },
     subjectOf: [
-      {
-        "@type": "Book",
-        name: "Stillness That Walks",
-      },
-      {
-        "@type": "Book",
-        name: "Hening yang Berjalan",
-      },
-      {
-        "@type": "Book",
-        name: "ACHE: What Kind of Life Is This?",
-      },
-      {
-        "@type": "Book",
-        name: "ACHE: Hidup Seperti Apa Ini?",
-      },
+      { "@type": "Book", name: "Stillness That Walks" },
+      { "@type": "Book", name: "Hening yang Berjalan" },
+      { "@type": "Book", name: "ACHE: What Kind of Life Is This?" },
+      { "@type": "Book", name: "ACHE: Hidup Seperti Apa Ini?" },
     ],
     hasOccupation: [
-      {
-        "@type": "Occupation",
-        name: "Software Developer",
-      },
-      {
-        "@type": "Occupation",
-        name: "Author",
-      },
-      {
-        "@type": "Occupation",
-        name: "Music Artist",
-      },
+      { "@type": "Occupation", name: "Software Developer" },
+      { "@type": "Occupation", name: "Author" },
+      { "@type": "Occupation", name: "Music Artist" },
     ],
   },
   {
