@@ -20,7 +20,7 @@ export const schemaData = [
       },
     ],
     url: "https://www.cahyanudien.site",
-    image: "https://www.cahyanudien.site/avatar.jpg",
+    image: "https://avatars.githubusercontent.com/cas8398",
     description:
       "Full-stack developer, founder of FlagoDNA, author of Stillness That Walks, Hening yang Berjalan, ACHE: What Kind of Life Is This?, and ACHE: Hidup Seperti Apa Ini?. Building meaningful digital ecosystems since 2020. 60K+ users across 15+ apps.",
     knowsAbout: [
