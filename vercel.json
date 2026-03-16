@@ -5,6 +5,10 @@
   "installCommand": "pnpm install",
   "rewrites": [
     {
+      "source": "/.well-known/atproto-did",
+      "destination": "/.well-known/atproto-did"
+    },
+    {
       "source": "/stillness-that-walks/(.*)",
       "destination": "/stillness-that-walks/index.html"
     },
