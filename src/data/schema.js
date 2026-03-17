@@ -41,6 +41,7 @@ export const schemaData = [
       "https://linkedin.com/in/cahyanudien",
       "https://instagram.com/cas8398",
       "https://x.com/cas8398",
+      "https://blog.cahyanudien.site",
       "https://www.amazon.com/author/cahyanudien",
       "https://www.goodreads.com/author/show/69229893.Cahyanudien_Aziz_Saputra",
       "https://www.smashwords.com/profile/view/Cahyanudien_Aziz_Saputra/",

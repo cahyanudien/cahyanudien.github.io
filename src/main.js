@@ -42,12 +42,19 @@ document.querySelector("#app").innerHTML = `
         </a>
       </p>
 
-      <p class="small-note">
-        Learn more →
-        <a href="/cahyanudien-aziz-saputra/">
-          About Cahyanudien Aziz Saputra
-        </a>
-      </p>
+    <p class="small-note">
+      👋 Want to know more? →
+      <a href="/cahyanudien-aziz-saputra/">
+        About Cahyanudien Aziz Saputra
+      </a>
+    </p>
+
+    <p class="small-note">
+      📖 Read more articles →
+      <a href="https://blog.cahyanudien.site">
+        Visit My Blog
+      </a>
+    </p>
     </div>
 
     <!-- PROJECTS SECTION -->
