@@ -158,6 +158,15 @@ export const profiles = [
     status: "live",
     target: "blank",
   },
+  {
+    emoji: "📚",
+    title: "BookBub Author Page",
+    description: "Official author profile for books, bio, and updates",
+    url: "https://cahyanudienbooks.author-pages.com",
+    linkText: "cahyanudienbooks.author-pages.com",
+    status: "live",
+    target: "blank",
+  },
 ];
 
 /* LATER ADD
