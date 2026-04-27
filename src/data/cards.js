@@ -160,10 +160,11 @@ export const profiles = [
   },
   {
     emoji: "📚",
-    title: "BookBub Author Page",
-    description: "Official author profile for books, bio, and updates",
-    url: "https://cahyanudienbooks.author-pages.com",
-    linkText: "cahyanudienbooks.author-pages.com",
+    title: "Goodreads Author Page",
+    description:
+      "Official author profile featuring books, bio, ratings, and reader updates",
+    url: "https://www.goodreads.com/author/show/69229893.Cahyanudien_Aziz_Saputra",
+    linkText: "goodreads.com/author/show/69229893",
     status: "live",
     target: "blank",
   },
