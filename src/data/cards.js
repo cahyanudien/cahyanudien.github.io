@@ -102,10 +102,19 @@ export const musics = [
     status: "live",
   },
 ];
-
 export const profiles = [
   {
-    emoji: "👤",
+    emoji: "🌐",
+    title: "Google Knowledge Graph",
+    description: "/g/11z1tf3blz · recognized entity profile",
+    url: "https://www.google.com/search?kgmid=/g/11z1tf3blz",
+    linkText: "google.com",
+    status: "live",
+    target: "blank",
+  },
+
+  {
+    emoji: "🪪",
     title: "ORCID",
     description: "0009-0007-5983-9221 · verified researcher profile",
     url: "https://orcid.org/0009-0007-5983-9221",
@@ -113,17 +122,9 @@ export const profiles = [
     status: "live",
     target: "blank",
   },
+
   {
-    emoji: "📚",
-    title: "ResearchGate",
-    description: "academic publications · software & knowledge projects",
-    url: "https://www.researchgate.net/profile/Cahyanudien-Saputra-2",
-    linkText: "researchgate.net",
-    status: "live",
-    target: "blank",
-  },
-  {
-    emoji: "🧠",
+    emoji: "🗂️",
     title: "Wikidata",
     description: "Q138566666 · structured data profile",
     url: "https://www.wikidata.org/wiki/Q138566666",
@@ -131,8 +132,9 @@ export const profiles = [
     status: "live",
     target: "blank",
   },
+
   {
-    emoji: "💬",
+    emoji: "📝",
     title: "Wikiquote",
     description: "compiled quotes · Hening yang Berjalan & tech philosophy",
     url: "https://en.wikiquote.org/wiki/Cahyanudien_Aziz_Saputra",
@@ -140,8 +142,9 @@ export const profiles = [
     status: "live",
     target: "blank",
   },
+
   {
-    emoji: "🐙",
+    emoji: "💻",
     title: "GitHub · cas8398",
     description: "main technical profile · code & projects",
     url: "https://github.com/cas8398",
@@ -149,17 +152,19 @@ export const profiles = [
     status: "live",
     target: "blank",
   },
+
   {
-    emoji: "🐙",
-    title: "GitHub · cahyanudien",
-    description: "organization & book project repos",
-    url: "https://github.com/cahyanudien",
-    linkText: "github.com",
+    emoji: "📰",
+    title: "Blog · Cahyanudien",
+    description: "thoughts, essays, dev logs & digital philosophy",
+    url: "https://blog.cahyanudien.site",
+    linkText: "blog.cahyanudien.site",
     status: "live",
     target: "blank",
   },
+
   {
-    emoji: "📚",
+    emoji: "📖",
     title: "Goodreads Author Page",
     description:
       "Official author profile featuring books, bio, ratings, and reader updates",
@@ -168,16 +173,14 @@ export const profiles = [
     status: "live",
     target: "blank",
   },
-];
 
-/* LATER ADD
   {
-    emoji: "🎓",
-    title: "Google Scholar",
-    description: "academic citations · HadisKu & knowledge systems",
-    url: "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID",  
-    linkText: "scholar.google.com",
+    emoji: "🔬",
+    title: "ResearchGate",
+    description: "academic publications · software & knowledge projects",
+    url: "https://www.researchgate.net/profile/Cahyanudien-Saputra-2",
+    linkText: "researchgate.net",
     status: "live",
     target: "blank",
   },
-  */
+];

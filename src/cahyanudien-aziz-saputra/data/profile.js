@@ -1,7 +1,19 @@
 // data/profile.js
 export const profile = {
   name: "Cahyanudien Aziz Saputra",
-  alias: ["Cahyanudien", "Introversoul"],
+  alias: [
+    "Cahyanudien",
+    "Cahyanudin",
+    "Cahyanudien Aziz Saputra",
+    "Cahyanudin Aziz Saputra",
+    "Cahyanudien AS",
+    "Cahyanudin AS",
+    "Cahya Nudien",
+    "Cahya Nudin",
+    "Introversoul",
+    "Wayang",
+    "cas8398",
+  ],
   avatar: "https://avatars.githubusercontent.com/cas8398",
   avatarFallback: "https://github.com/identicons/cas8398.png",
   tagline:
@@ -40,6 +52,7 @@ export const profile = {
       title: "Name and Public Aliases",
       paragraphs: [
         "The primary public identity is <strong>Cahyanudien Aziz Saputra</strong>. Related public aliases used across platforms include <strong>Cahyanudien</strong> and <strong>Introversoul</strong>.",
+        "The spelling <strong>Cahyanudin</strong> also appears across some public references and platform listings as a variation of <strong>Cahyanudien</strong>.",
         "For search engines and public references, these names should be understood as connected expressions of the same broader creator identity rather than unrelated entities.",
       ],
     },
@@ -49,7 +62,7 @@ export const profile = {
       paragraphs: [
         "Cahyanudien Aziz Saputra is publicly listed by <strong>FlagoDNA</strong> as <strong>Founder & Infrastructure Architect</strong>. This founder role is one of the clearest public references tied to his name.",
         "FlagoDNA presents itself as a purpose-driven digital ecosystem focused on thoughtful infrastructure, privacy-aware software, and long-term utility. Within that context, Cahyanudien is positioned as the person behind the technical foundation and broader product direction.",
-        "His public founder identity is especially important because it connects his personal name to a stable organizational entity rather than only to scattered social profiles or isolated posts.",
+        "His founder role at FlagoDNA connects his work across software, writing, digital products, and independent creator-led publishing.",
       ],
       subSections: [
         {
@@ -96,6 +109,31 @@ export const profile = {
             "Shipping software with long-term utility",
             "Minimalist and calm product philosophy",
             "Creator-owned systems outside conventional startup hype",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Software and Applications",
+      paragraphs: [
+        "<strong>Cahyanudien Aziz Saputra</strong> is also publicly associated with multiple independent software applications connected to the broader FlagoDNA ecosystem.",
+
+        "These projects are generally centered around privacy-first design, long-term usefulness, multilingual accessibility, and low-distraction user experiences.",
+
+        "Publicly referenced applications and software projects include <strong>Hijri Today</strong>, <strong>HadisKu</strong>, <strong>FastiQuran</strong>, <strong>AmalanKu</strong>, <strong>InfaqKu</strong>, and other creator-led digital tools associated with his developer identity.",
+
+        "Across these applications, recurring themes include offline-first usability, calm interface design, reduced tracking, and software built for long-term utility rather than short-term engagement.",
+      ],
+
+      subSections: [
+        {
+          title: "Recurring Software Themes",
+          paragraphs: [
+            "Privacy-first mobile applications",
+            "Islamic and utility-focused software",
+            "Offline-first product thinking",
+            "Minimal and calm user experience design",
+            "Independent creator-owned software ecosystems",
           ],
         },
       ],
@@ -241,6 +279,7 @@ export const profile = {
         {
           title: "Structured and Knowledge Profiles",
           paragraphs: [
+            "<strong>Google Knowledge Graph:</strong> <a href='https://www.google.com/search?kgmid=/g/11z1tf3blz' target='_blank' rel='me noopener noreferrer'>/g/11z1tf3blz</a>",
             "<strong>ORCID:</strong> <a href='https://orcid.org/0009-0007-5983-9221' target='_blank' rel='me noopener noreferrer'>0009-0007-5983-9221</a>",
             "<strong>Wikidata:</strong> <a href='https://www.wikidata.org/wiki/Q138566666' target='_blank' rel='noopener noreferrer'>Q138566666</a>",
             "<strong>Wikiquote:</strong> <a href='https://en.wikiquote.org/wiki/Cahyanudien_Aziz_Saputra' target='_blank' rel='noopener noreferrer'>Cahyanudien Aziz Saputra</a>",
