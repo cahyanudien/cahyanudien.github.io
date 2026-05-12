@@ -1,15 +1,20 @@
 import "./style.css";
 import { schemaData } from "./data/schema.js";
-import { projects, games, books, profiles, musics } from "./data/cards.js";
+import {
+  projects,
+  about,
+  books,
+  profiles,
+  musics,
+  apps,
+} from "./data/cards.js";
 import { profile } from "./data/profile.js";
 
 // Inject Schema.org JSON-LD
-schemaData.forEach((schema) => {
-  const script = document.createElement("script");
-  script.type = "application/ld+json";
-  script.textContent = JSON.stringify(schema);
-  document.head.appendChild(script);
-});
+const script = document.createElement("script");
+script.type = "application/ld+json";
+script.textContent = JSON.stringify(schemaData);
+document.head.appendChild(script);
 
 // Render app
 document.querySelector("#app").innerHTML = `
@@ -64,13 +69,18 @@ document.querySelector("#app").innerHTML = `
     </section>
 
     <section>
-      <h2 class="section-label" style="margin-top: 1.8rem">🎮 GAMES</h2>
-      <div class="card-grid" id="games-grid"></div>
+      <h2 class="section-label" style="margin-top: 1.8rem">👤 ABOUT CAHYANUDIEN</h2>
+      <div class="card-grid" id="about-grid"></div>
     </section>
 
     <section>
       <h2 class="section-label" style="margin-top: 1.8rem">📚 BOOKS</h2>
       <div class="card-grid" id="books-grid"></div>
+    </section>
+
+    <section>
+      <h2 class="section-label" style="margin-top: 1.8rem">🚀 APPS</h2>
+      <div class="card-grid" id="apps-grid"></div>
     </section>
 
     <section>
@@ -158,7 +168,8 @@ function renderCards(containerId, items) {
 
 // Load all cards
 renderCards("projects-grid", projects);
-renderCards("games-grid", games);
+renderCards("about-grid", about);
 renderCards("books-grid", books);
+renderCards("apps-grid", apps);
 renderCards("profiles-grid", profiles);
 renderCards("music-grid", musics);

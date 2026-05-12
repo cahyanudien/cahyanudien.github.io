@@ -2,7 +2,7 @@ export const projects = [
   {
     emoji: "🧬",
     title: "FlagoDNA",
-    description: "digital ecosystems · 60K+ users",
+    description: "digital ecosystems · 70K+ users",
     url: "https://flagodna.com",
     linkText: "flagodna.com",
     status: "live",
@@ -19,22 +19,63 @@ export const projects = [
   },
 ];
 
-export const games = [
+export const apps = [
   {
-    emoji: "🐑",
-    title: "Sheeply",
-    description: "peaceful mini-games for relaxation & calm",
-    url: "https://play.google.com/store/apps/details?id=com.flagodna.sheeply",
-    linkText: "playstore",
+    emoji: "📖",
+    title: "Hadis Ku",
+    description: "Complete 14 Imams Hadith with offline access & Sanad.",
+    url: "https://flagodna.com/hadisku/",
+    linkText: "flagodna.com",
     status: "live",
     target: "blank",
   },
   {
-    emoji: "✨",
-    title: "Sukamo",
-    description: "arrange motivational words · Quranic verses · Islamic quiz",
-    url: "https://play.google.com/store/apps/details?id=com.flagodna.sukamo",
-    linkText: "playstore",
+    emoji: "📿",
+    title: "AmalanKu",
+    description: "Daily deeds tracker for reflection and consistency.",
+    url: "https://amalanku.github.io/",
+    linkText: "amalanku.github.io",
+    status: "live",
+    target: "blank",
+  },
+  {
+    emoji: "🛡️",
+    title: "Lens Browser",
+    description: "Privacy-focused Android browser with built-in ad blocking.",
+    url: "https://flagodna.com/lens-browser/",
+    linkText: "flagodna.com",
+    status: "live",
+    target: "blank",
+  },
+  {
+    emoji: "📅",
+    title: "Hijri Today",
+    description: "Lightweight Hijri date widget for your home screen.",
+    url: "https://flagodna.com/hijri-today/",
+    linkText: "flagodna.com",
+    status: "live",
+    target: "blank",
+  },
+];
+
+export const about = [
+  {
+    emoji: "👨",
+    title: "About Me",
+    description:
+      "Full-stack Developer & Creator of FlagoDNA · Building digital identity",
+    url: "https://flagodna.com/cahyanudien-aziz-saputra/",
+    linkText: "flagodna.com",
+    status: "live",
+    target: "blank",
+  },
+  {
+    emoji: "👨‍💻",
+    title: "About Me",
+    description:
+      "Writer & Thinker · Author of Hening yang Berjalan & tech philosophy",
+    url: "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
+    linkText: "cahyanudien.site",
     status: "live",
     target: "blank",
   },
@@ -114,16 +155,6 @@ export const profiles = [
   },
 
   {
-    emoji: "🪪",
-    title: "ORCID",
-    description: "0009-0007-5983-9221 · verified researcher profile",
-    url: "https://orcid.org/0009-0007-5983-9221",
-    linkText: "orcid.org",
-    status: "live",
-    target: "blank",
-  },
-
-  {
     emoji: "🗂️",
     title: "Wikidata",
     description: "Q138566666 · structured data profile",
@@ -132,17 +163,6 @@ export const profiles = [
     status: "live",
     target: "blank",
   },
-
-  {
-    emoji: "📝",
-    title: "Wikiquote",
-    description: "compiled quotes · Hening yang Berjalan & tech philosophy",
-    url: "https://en.wikiquote.org/wiki/Cahyanudien_Aziz_Saputra",
-    linkText: "en.wikiquote.org",
-    status: "live",
-    target: "blank",
-  },
-
   {
     emoji: "💻",
     title: "GitHub · cas8398",
@@ -164,6 +184,17 @@ export const profiles = [
   },
 
   {
+    emoji: "👨‍🏫",
+    title: "Author Page",
+    description:
+      "Official Amazon Author Profile · Literary works & published books",
+    url: "https://www.amazon.com/stores/author/B0GRFWG9MN",
+    linkText: "amazon.com/author",
+    status: "live",
+    target: "blank",
+  },
+
+  {
     emoji: "📖",
     title: "Goodreads Author Page",
     description:
@@ -180,6 +211,15 @@ export const profiles = [
     description: "academic publications · software & knowledge projects",
     url: "https://www.researchgate.net/profile/Cahyanudien-Saputra-2",
     linkText: "researchgate.net",
+    status: "live",
+    target: "blank",
+  },
+  {
+    emoji: "🪪",
+    title: "ORCID",
+    description: "0009-0007-5983-9221 · verified researcher profile",
+    url: "https://orcid.org/0009-0007-5983-9221",
+    linkText: "orcid.org",
     status: "live",
     target: "blank",
   },
