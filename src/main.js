@@ -1,13 +1,6 @@
 import "./style.css";
 import { schemaData } from "./data/schema.js";
-import {
-  projects,
-  about,
-  books,
-  profiles,
-  musics,
-  apps,
-} from "./data/cards.js";
+import { projects, about, books, profiles, apps } from "./data/cards.js";
 import { profile } from "./data/profile.js";
 
 // Inject Schema.org JSON-LD
@@ -81,12 +74,7 @@ document.querySelector("#app").innerHTML = `
     <section>
       <h2 class="section-label" style="margin-top: 1.8rem">🚀 APPS</h2>
       <div class="card-grid" id="apps-grid"></div>
-    </section>
-
-    <section>
-      <h2 class="section-label" style="margin-top: 1.8rem">🎵 MUSIC</h2>
-      <div class="card-grid" id="music-grid"></div>
-    </section>
+    </section> 
 
     <section>
       <h2 class="section-label" style="margin-top: 1.8rem">🆔 PROFILES</h2>
@@ -99,8 +87,10 @@ document.querySelector("#app").innerHTML = `
     <!-- Footer -->
     <div class="footer-note">
       <span class="linkedin-meta">
-        <span>↗</span>
-        <a href="${profile.linkedinUrl}" target="_blank" rel="noopener">${profile.linkedinHandle}</a>
+        <span>👔</span>
+        <a href="${profile.linkedinUrl}" target="_blank" rel="noopener">
+          ${profile.linkedinHandle}
+        </a>
       </span>
       <span>© 2026 ${profile.name}</span>
     </div>
@@ -172,4 +162,3 @@ renderCards("about-grid", about);
 renderCards("books-grid", books);
 renderCards("apps-grid", apps);
 renderCards("profiles-grid", profiles);
-renderCards("music-grid", musics);

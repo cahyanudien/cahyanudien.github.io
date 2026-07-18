@@ -14,7 +14,7 @@ export const schemaData = [
     name: "Cahyanudien Aziz Saputra",
 
     description:
-      "Official profile page of Cahyanudien Aziz Saputra, also known as Cahyanudien, Cahyanudin, Introversoul, and cas8398.",
+      "Official profile page of Cahyanudien Aziz Saputra, also known as Cahyanudien, Cahyanudin, and cas8398.",
 
     mainEntity: {
       "@id": "https://www.wikidata.org/wiki/Q138566666",
@@ -52,7 +52,6 @@ export const schemaData = [
       "Cahyanudin AS",
       "Cahya Nudien",
       "Cahya Nudin",
-      "Introversoul",
       "Wayang",
       "cas8398",
     ],
@@ -95,7 +94,7 @@ export const schemaData = [
     image: "https://avatars.githubusercontent.com/cas8398",
 
     description:
-      "Indonesian full-stack developer, founder of FlagoDNA, author, and creator of Introversoul. Known for privacy-first software, Islamic applications, reflective writing, and independent digital ecosystems.",
+      "Indonesian full-stack developer, founder of FlagoDNA, and author. Known for privacy-first software, Islamic applications, reflective writing, and independent digital ecosystems.",
 
     knowsLanguage: ["en", "id"],
 
@@ -117,7 +116,6 @@ export const schemaData = [
     keywords: [
       "Cahyanudien",
       "Cahyanudin",
-      "Introversoul",
       "FlagoDNA",
       "Flutter developer Indonesia",
       "Privacy-first developer",
@@ -143,11 +141,6 @@ export const schemaData = [
       "https://cahyanudienbooks.author-pages.com",
       "https://www.researchgate.net/profile/Cahyanudien-Saputra-2",
       "https://open.spotify.com/artist/4BN5wcsLXapCKgy4CzMjzf",
-      "https://music.apple.com/us/artist/introversoul/1877195012",
-      "https://music.youtube.com/channel/UCM_5i_cjiW96AvvGWY8PNgg",
-      "https://soundcloud.com/introversoul",
-      "https://instagram.com/introversoul.music",
-      "https://x.com/introversoul",
     ],
 
     worksFor: {
@@ -219,41 +212,6 @@ export const schemaData = [
     sameAs: [
       "https://github.com/Flagodna-Developer",
       "https://play.google.com/store/apps/dev?id=8286064047927550013",
-    ],
-  },
-
-  // ------------------------------------------------
-  // MUSIC GROUP
-  // ------------------------------------------------
-  {
-    "@context": "https://schema.org",
-
-    "@type": "MusicGroup",
-
-    "@id": "https://www.wikidata.org/wiki/Q138609374",
-
-    name: "Introversoul",
-
-    alternateName: ["IntroverSoul", "introversoul music"],
-
-    founder: {
-      "@id": "https://www.wikidata.org/wiki/Q138566666",
-    },
-
-    url: "https://open.spotify.com/artist/4BN5wcsLXapCKgy4CzMjzf",
-
-    genre: ["Ambient", "Experimental", "Introspective music"],
-
-    description:
-      "Introspective music project created by Cahyanudien Aziz Saputra.",
-
-    sameAs: [
-      "https://open.spotify.com/artist/4BN5wcsLXapCKgy4CzMjzf",
-      "https://music.apple.com/us/artist/introversoul/1877195012",
-      "https://music.youtube.com/channel/UCM_5i_cjiW96AvvGWY8PNgg",
-      "https://soundcloud.com/introversoul",
-      "https://instagram.com/introversoul.music",
-      "https://x.com/introversoul",
     ],
   },
 

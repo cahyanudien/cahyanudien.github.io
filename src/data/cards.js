@@ -2,7 +2,7 @@ export const projects = [
   {
     emoji: "🧬",
     title: "FlagoDNA",
-    description: "digital ecosystems · 70K+ users",
+    description: "Privacy-first software for Muslim life · 70K+ users",
     url: "https://flagodna.com",
     linkText: "flagodna.com",
     status: "live",
@@ -11,14 +11,13 @@ export const projects = [
   {
     emoji: "🤲",
     title: "GitHub · Sadaqah Code",
-    description: "Islamic open-source · free digital tools for Muslims",
+    description: "Open-source software for Muslim communities",
     url: "https://github.com/SadaqahCode",
     linkText: "github.com/SadaqahCode",
     status: "live",
     target: "blank",
   },
 ];
-
 export const apps = [
   {
     emoji: "📖",
@@ -57,23 +56,21 @@ export const apps = [
     target: "blank",
   },
 ];
-
 export const about = [
   {
     emoji: "👨",
     title: "About Me",
     description:
-      "Full-stack Developer & Creator of FlagoDNA · Building digital identity",
+      "Founder of FlagoDNA · Developer · Building privacy-first software for Muslim life",
     url: "https://flagodna.com/cahyanudien-aziz-saputra/",
     linkText: "flagodna.com",
     status: "live",
     target: "blank",
   },
   {
-    emoji: "👨‍💻",
+    emoji: "📚",
     title: "About Me",
-    description:
-      "Writer & Thinker · Author of Hening yang Berjalan & tech philosophy",
+    description: "Author · Books, philosophy, and the ideas behind my work",
     url: "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
     linkText: "cahyanudien.site",
     status: "live",
@@ -120,29 +117,6 @@ export const books = [
   },
 ];
 
-export const musics = [
-  {
-    emoji: "🎧",
-    title: "Introversoul",
-    description: "ambient · introspective soundscape",
-    links: [
-      {
-        platform: "Spotify",
-        url: "https://open.spotify.com/artist/4BN5wcsLXapCKgy4CzMjzf",
-      },
-      {
-        platform: "YouTube Music",
-        url: "https://music.youtube.com/channel/UCM_5i_cjiW96AvvGWY8PNgg",
-      },
-      {
-        platform: "Apple Music",
-        url: "https://music.apple.com/us/artist/introversoul/1877195012",
-      },
-    ],
-    target: "blank",
-    status: "live",
-  },
-];
 export const profiles = [
   {
     emoji: "🌐",

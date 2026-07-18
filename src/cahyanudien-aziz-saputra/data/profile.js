@@ -1,85 +1,91 @@
 // data/profile.js
 export const profile = {
   name: "Cahyanudien Aziz Saputra",
+
   alias: [
-    "Cahyanudien",
-    "Cahyanudin",
     "Cahyanudien Aziz Saputra",
     "Cahyanudin Aziz Saputra",
+    "Cahyanudien",
+    "Cahyanudin",
     "Cahyanudien AS",
     "Cahyanudin AS",
-    "Cahya Nudien",
-    "Cahya Nudin",
-    "Introversoul",
-    "Wayang",
+    "Cahya Saputra",
     "cas8398",
   ],
+
   avatar: "https://avatars.githubusercontent.com/cas8398",
   avatarFallback: "https://github.com/identicons/cas8398.png",
-  tagline:
-    "Founder of FlagoDNA · Full-Stack Developer · Author · Creator of Introversoul",
+
+  tagline: "Founder of FlagoDNA · Developer · Author",
+
   copyrightYear: "2026",
 
   sections: [
     {
       title: "Who is Cahyanudien Aziz Saputra?",
       paragraphs: [
-        "<strong>Cahyanudien Aziz Saputra</strong>, also known publicly as <strong>Cahyanudien</strong> and <strong>Introversoul</strong>, is an Indonesian <strong>full-stack developer</strong>, <strong>independent founder</strong>, <strong>author</strong>, and <strong>creative project builder</strong>.",
-        "He is best known as the founder of <strong>FlagoDNA</strong>, where his public role is associated with product infrastructure, ecosystem building, and privacy-conscious digital tools. Across his public work, his identity connects software development, founder-led product direction, reflective writing, and independent creator-led publishing.",
-        "His name is publicly associated with software projects, founder pages, book listings, music-oriented creator references, and structured identity profiles that reinforce a consistent presence across the web.",
+        "<strong>Cahyanudien Aziz Saputra</strong>, also known publicly as <strong>Cahyanudien</strong>, is an Indonesian <strong>software developer</strong>, <strong>founder</strong>, and <strong>author</strong>.",
+
+        "He is the founder of <strong>FlagoDNA</strong>, an independent software studio focused on building privacy-first applications for Muslim life. His work emphasizes simplicity, long-term digital independence, and software that remains useful without relying on advertising or user tracking.",
+
+        "Beyond software, he writes books exploring technology, philosophy, and the inner life, including <em>Stillness That Walks</em>, <em>Hening yang Berjalan</em>, and <em>ACHE</em>.",
       ],
     },
 
     {
       title: "Known For",
       paragraphs: [
-        "<strong>Cahyanudien Aziz Saputra</strong> is publicly known for multiple connected areas of work that reinforce one another across software, authorship, and creative publishing.",
+        "<strong>Cahyanudien Aziz Saputra</strong> is best known for building independent software products, writing books, and leading FlagoDNA as an independent founder.",
       ],
       subSections: [
         {
           title: "Primary Public Associations",
           paragraphs: [
-            "<strong>Founder of FlagoDNA</strong> — publicly listed as Founder & Infrastructure Architect",
-            "<strong>Independent Full-Stack Developer</strong> — associated with product building, infrastructure, and creator-owned software systems",
-            "<strong>Author</strong> — publicly connected to books including <em>Stillness That Walks</em>, <em>Hening yang Berjalan</em>, and the <em>ACHE</em> editions",
-            "<strong>Creator of Introversoul</strong> — a public introspective music project and artistic identity linked to his name",
+            "<strong>Founder of FlagoDNA</strong> — building privacy-first software for Muslim life.",
+            "<strong>Independent Software Developer</strong> — creating Android and cross-platform applications with Kotlin and Flutter.",
+            "<strong>Author</strong> — writer of <em>Stillness That Walks</em>, <em>Hening yang Berjalan</em>, and the <em>ACHE</em> series.",
           ],
         },
       ],
     },
-
     {
       title: "Name and Public Aliases",
       paragraphs: [
-        "The primary public identity is <strong>Cahyanudien Aziz Saputra</strong>. Related public aliases used across platforms include <strong>Cahyanudien</strong> and <strong>Introversoul</strong>.",
-        "The spelling <strong>Cahyanudin</strong> also appears across some public references and platform listings as a variation of <strong>Cahyanudien</strong>.",
-        "For search engines and public references, these names should be understood as connected expressions of the same broader creator identity rather than unrelated entities.",
+        "The primary public identity is <strong>Cahyanudien Aziz Saputra</strong>. Across different platforms, he is also known as <strong>Cahyanudien</strong> and by the username <strong>cas8398</strong>.",
+
+        "The spelling <strong>Cahyanudin</strong> occasionally appears in public profiles and search results as a common variation of his first name.",
+
+        "These names refer to the same person and are used consistently across his software projects, publications, and online profiles.",
       ],
     },
 
     {
       title: "Founder of FlagoDNA",
       paragraphs: [
-        "Cahyanudien Aziz Saputra is publicly listed by <strong>FlagoDNA</strong> as <strong>Founder & Infrastructure Architect</strong>. This founder role is one of the clearest public references tied to his name.",
-        "FlagoDNA presents itself as a purpose-driven digital ecosystem focused on thoughtful infrastructure, privacy-aware software, and long-term utility. Within that context, Cahyanudien is positioned as the person behind the technical foundation and broader product direction.",
-        "His founder role at FlagoDNA connects his work across software, writing, digital products, and independent creator-led publishing.",
+        "<strong>Cahyanudien Aziz Saputra</strong> is the founder of <strong>FlagoDNA</strong>, an independent software studio that develops privacy-first applications for Muslim life.",
+
+        "Under FlagoDNA, he designs and builds Android applications, web platforms, and supporting infrastructure with an emphasis on simplicity, long-term maintainability, and digital independence.",
+
+        "His work spans software engineering, product design, technical writing, and publishing, reflecting a long-term commitment to building useful tools that respect users and their privacy.",
       ],
+
       subSections: [
         {
-          title: "Public Founder References",
+          title: "Official References",
           paragraphs: [
-            "<strong>Official website:</strong> <a href='https://flagodna.com/' target='_blank' rel='noopener noreferrer'>flagodna.com</a>",
-            "<strong>Team page:</strong> <a href='https://flagodna.com/teams/' target='_blank' rel='noopener noreferrer'>FlagoDNA / The People Behind FlagoDNA</a>",
-            "<strong>About page:</strong> <a href='https://flagodna.com/about/' target='_blank' rel='noopener noreferrer'>About FlagoDNA</a>",
+            "<strong>Website:</strong> <a href='https://flagodna.com/' target='_blank' rel='noopener noreferrer'>flagodna.com</a>",
+            "<strong>About:</strong> <a href='https://flagodna.com/about/' target='_blank' rel='noopener noreferrer'>About FlagoDNA</a>",
+            "<strong>Team:</strong> <a href='https://flagodna.com/teams/' target='_blank' rel='noopener noreferrer'>The People Behind FlagoDNA</a>",
           ],
         },
+
         {
-          title: "FlagoDNA Themes",
+          title: "Core Principles",
           paragraphs: [
-            "Independent product ecosystems",
-            "Privacy-first digital tools",
-            "Low-distraction and intentional software design",
-            "Long-term creator-owned infrastructure",
+            "Privacy-first software",
+            "Simple and intentional design",
+            "Independent development",
+            "Long-term digital sustainability",
           ],
         },
       ],
@@ -88,27 +94,31 @@ export const profile = {
     {
       title: "Developer and Product Builder",
       paragraphs: [
-        "As a developer, Cahyanudien is best understood as an <strong>independent product builder</strong> rather than only a conventional engineer. His public work consistently emphasizes building software that is useful, sustainable, and respectful of users.",
-        "His technical identity is closely associated with <strong>full-stack development</strong>, <strong>mobile-first product thinking</strong>, and <strong>independent software systems</strong>. He is especially relevant in contexts where code, product direction, launch strategy, and long-term maintenance all intersect.",
-        "Instead of separating engineering from publishing or product storytelling, his public presence reflects a founder-led model where technical work, product vision, and personal authorship reinforce one another.",
+        "Cahyanudien Aziz Saputra is an independent software developer who designs, builds, and maintains applications from concept to release. His work combines software engineering, product design, and long-term maintenance under a single independent workflow.",
+
+        "He primarily develops Android and cross-platform applications using Kotlin and Flutter, while also building web services, backend systems, and supporting infrastructure. His products are designed to be simple, privacy-first, and sustainable over the long term.",
+
+        "Rather than building software for short-term trends, he focuses on creating practical tools that remain useful for years. This philosophy is reflected across both FlagoDNA products and his personal projects.",
       ],
+
       subSections: [
         {
-          title: "Public Technical Positioning",
+          title: "Technical Focus",
           paragraphs: [
-            "<strong>Independent Full-Stack Developer</strong>",
-            "<strong>Founder-led product builder</strong>",
-            "<strong>Mobile-first software creator</strong>",
-            "<strong>Infrastructure-minded digital systems builder</strong>",
+            "Android development with Kotlin",
+            "Cross-platform development with Flutter",
+            "Backend and web application development",
+            "Privacy-first product design",
           ],
         },
+
         {
-          title: "Recurring Public Themes",
+          title: "Development Philosophy",
           paragraphs: [
-            "Building useful tools over viral products",
-            "Shipping software with long-term utility",
-            "Minimalist and calm product philosophy",
-            "Creator-owned systems outside conventional startup hype",
+            "Build useful software before adding features.",
+            "Respect user privacy by default.",
+            "Design for long-term maintainability.",
+            "Keep products simple, focused, and independent.",
           ],
         },
       ],
@@ -116,102 +126,68 @@ export const profile = {
     {
       title: "Software and Applications",
       paragraphs: [
-        "<strong>Cahyanudien Aziz Saputra</strong> is also publicly associated with multiple independent software applications connected to the broader FlagoDNA ecosystem.",
+        "<strong>Cahyanudien Aziz Saputra</strong> has developed a growing portfolio of independent software applications under the <strong>FlagoDNA</strong> brand, with a primary focus on tools for Muslim life and everyday productivity.",
 
-        "These projects are generally centered around privacy-first design, long-term usefulness, multilingual accessibility, and low-distraction user experiences.",
+        "His applications are built around privacy-first principles, simple interfaces, offline capabilities where practical, multilingual accessibility, and long-term maintainability instead of short-term engagement.",
 
-        "Publicly referenced applications and software projects include <strong>Hijri Today</strong>, <strong>HadisKu</strong>, <strong>FastiQuran</strong>, <strong>AmalanKu</strong>, <strong>InfaqKu</strong>, and other creator-led digital tools associated with his developer identity.",
+        "Public projects include <strong>Quran Today</strong>, <strong>HadisKu</strong>, <strong>Hijri Today</strong>, <strong>AmalanKu</strong>, <strong>InfaqKu</strong>, <strong>KasirCepat</strong>, and other independent software developed through FlagoDNA.",
 
-        "Across these applications, recurring themes include offline-first usability, calm interface design, reduced tracking, and software built for long-term utility rather than short-term engagement.",
+        "Together, these products reflect a consistent philosophy: build software that is useful, respectful of users, and designed to remain valuable for years.",
       ],
 
       subSections: [
         {
-          title: "Recurring Software Themes",
+          title: "Common Characteristics",
           paragraphs: [
-            "Privacy-first mobile applications",
-            "Islamic and utility-focused software",
-            "Offline-first product thinking",
-            "Minimal and calm user experience design",
-            "Independent creator-owned software ecosystems",
+            "Privacy-first applications",
+            "Software for Muslim life and productivity",
+            "Offline-first functionality where practical",
+            "Simple and distraction-free user interfaces",
+            "Long-term software maintenance and sustainability",
+          ],
+        },
+      ],
+    },
+    {
+      title: "Author and Writer",
+      paragraphs: [
+        "Alongside his work in software development, <strong>Cahyanudien Aziz Saputra</strong> is also an author. His books explore themes of philosophy, reflection, personal growth, and the relationship between technology and the human experience.",
+
+        "His publications span philosophical poetry, reflective essays, and literary fiction in both English and Indonesian. While each work has its own voice, they share a common interest in stillness, meaning, resilience, and everyday life.",
+
+        "Writing is an extension of the same philosophy that shapes his software: creating thoughtful work that remains relevant, useful, and meaningful over time.",
+      ],
+
+      subSections: [
+        {
+          title: "Published Works",
+          paragraphs: [
+            "<strong>Stillness That Walks</strong> — an English collection of philosophical poetry exploring stillness, identity, and the human journey.",
+            "<strong>Hening yang Berjalan</strong> — an Indonesian collection of reflective poetry.",
+            "<strong>ACHE: What Kind of Life Is This?</strong> — an English work of literary fiction.",
+            "<strong>ACHE: Hidup Seperti Apa Ini?</strong> — the Indonesian edition of <em>ACHE</em>.",
+          ],
+        },
+
+        {
+          title: "Writing Themes",
+          paragraphs: [
+            "Philosophy and reflection",
+            "Poetry and literary fiction",
+            "Personal growth and resilience",
+            "Technology and the human experience",
+            "Stillness, meaning, and everyday life",
           ],
         },
       ],
     },
 
     {
-      title: "Author and Reflective Writer",
+      title: "Notable Works",
       paragraphs: [
-        "In addition to software, Cahyanudien Aziz Saputra also has a visible public identity as an <strong>author</strong>. His name is connected to multiple publicly discoverable books and creator publications, reinforcing a body of work that extends beyond software and product building.",
-        "His writing is associated with reflective, contemplative, and emotionally observant themes. Across his books and public essays, recurring motifs include stillness, continuation, inwardness, patience, almost-missed moments, and the emotional residue of ordinary life.",
-        "Rather than separating technical work from literary expression, his public writing complements the same long-term philosophy visible in his software: thoughtful creation, emotional precision, and creator-led publishing built for depth rather than speed.",
+        "Cahyanudien Aziz Saputra's work spans software development, books, and independent digital publishing. Together, these projects reflect his long-term commitment to building useful products and creating thoughtful written works.",
       ],
-      subSections: [
-        {
-          title: "Publicly Discoverable Works",
-          paragraphs: [
-            "<strong>Stillness That Walks</strong> — debut work in English, presented as philosophical poetry centered on inner movement, loss, and the unfinished journey of the self.",
-            "<strong>Hening yang Berjalan</strong> — Indonesian-language counterpart to his debut poetic voice, carrying a similar reflective and contemplative tone.",
-            "<strong>ACHE: What Kind of Life Is This?</strong> — a work of fragmented prose and literary fiction in English, following quiet disruptions, almost-missed moments, and emotionally unresolved urban life.",
-            "<strong>ACHE: Hidup Seperti Apa Ini?</strong> — Indonesian-language edition of ACHE, written as <em>prosa fragmentaris</em> and literary fiction with a strong atmosphere of subtle discomfort, waiting, and continuation.",
-          ],
-        },
-        {
-          title: "Writing Identity",
-          paragraphs: [
-            "Reflective and contemplative writing",
-            "Philosophical poetry and emotionally textured prose",
-            "Fragmentary fiction shaped by subtle tension and ordinary life",
-            "Themes of solitude, continuation, inwardness, patience, and meaning",
-            "A creator voice that complements his software philosophy rather than standing apart from it",
-          ],
-        },
-      ],
-    },
 
-    {
-      title: "Cahyanudien and Introversoul",
-      paragraphs: [
-        "<strong>Introversoul</strong> is a public <strong>music project</strong> and creative alias created by <strong>Cahyanudien Aziz Saputra</strong>. It is publicly presented as an introspective artistic project built around quiet emotion, reflection, and the inner landscapes often overlooked in a noisy world.",
-        "Rather than functioning as an unrelated separate persona, Introversoul is best understood as a creative extension of the same public identity behind FlagoDNA. It represents the more introspective and expressive side of his work, where music, authorship, atmosphere, and personal artistic direction converge.",
-        "For public presentation, the clearest framing is: <strong>Introversoul is the public music and creative project created by Cahyanudien Aziz Saputra, used for reflective, artistic, and emotionally driven work</strong>.",
-      ],
-      subSections: [
-        {
-          title: "Public Introversoul References",
-          paragraphs: [
-            "<strong>About Introversoul:</strong> <a href='https://introversoul-music.blogspot.com/p/about-us.html' target='_blank' rel='noopener noreferrer'>Introversoul / About</a>",
-            "<strong>Spotify Artist:</strong> <a href='https://open.spotify.com/artist/4BN5wcsLXapCKgy4CzMjzf' target='_blank' rel='me noopener noreferrer'>Introversoul on Spotify</a>",
-            "<strong>Apple Music:</strong> <a href='https://music.apple.com/us/artist/introversoul/1877195012' target='_blank' rel='me noopener noreferrer'>Introversoul on Apple Music</a>",
-            "<strong>YouTube Music:</strong> <a href='https://music.youtube.com/channel/UCM_5i_cjiW96AvvGWY8PNgg' target='_blank' rel='me noopener noreferrer'>Introversoul on YouTube Music</a>",
-            "<strong>SoundCloud:</strong> <a href='https://soundcloud.com/introversoul' target='_blank' rel='me noopener noreferrer'>Introversoul on SoundCloud</a>",
-          ],
-        },
-        {
-          title: "Introversoul Themes",
-          paragraphs: [
-            "Introspective music and reflective atmosphere",
-            "Quiet emotion, deep thinking, and inner landscapes",
-            "Artistic work shaped by solitude, emotional honesty, and stillness",
-            "A public creative layer that complements the founder, developer, and author identity",
-          ],
-        },
-        {
-          title: "Referenced Releases",
-          paragraphs: [
-            "<strong>INTRO-VERT</strong>",
-            "<strong>Our Love</strong>",
-            "<strong>Let Me Cry</strong>",
-          ],
-        },
-      ],
-    },
-
-    {
-      title: "Notable Works Across Media",
-      paragraphs: [
-        "Cahyanudien Aziz Saputra's public work spans software, books, and creative media. This cross-medium footprint helps reinforce a more complete and consistent public identity across search engines and public references.",
-      ],
       subSections: [
         {
           title: "Books",
@@ -222,62 +198,72 @@ export const profile = {
             "<strong>ACHE: Hidup Seperti Apa Ini?</strong>",
           ],
         },
+
         {
-          title: "Music and Creative Releases",
+          title: "Software Projects",
           paragraphs: [
-            "<strong>Introversoul</strong> (public music project)",
-            "<strong>INTRO-VERT</strong>",
-            "<strong>Our Love</strong>",
-            "<strong>Let Me Cry</strong>",
-          ],
-        },
-        {
-          title: "Software and Ecosystem Work",
-          paragraphs: [
-            "<strong>FlagoDNA</strong> and related founder-led product infrastructure",
-            "Independent software and creator-owned digital projects associated with his public developer identity",
+            "<strong>FlagoDNA</strong>",
+            "<strong>Quran Today</strong>",
+            "<strong>HadisKu</strong>",
+            "<strong>Hijri Today</strong>",
+            "<strong>KasirCepat</strong>",
+            "<strong>AmalanKu</strong>",
+            "<strong>InfaqKu</strong>",
           ],
         },
       ],
     },
 
     {
-      title: "Public Roles and Identity Summary",
+      title: "Public Identity",
       paragraphs: [
-        "Across the web, Cahyanudien Aziz Saputra is most consistently represented through a small number of recurring public roles that make his identity easier to understand for both readers and search systems.",
+        "Across his public work, Cahyanudien Aziz Saputra is consistently recognized through three primary roles that define his professional identity.",
       ],
+
       subSections: [
         {
           title: "Primary Roles",
           paragraphs: [
-            "<strong>Founder & Infrastructure Architect</strong> at FlagoDNA",
-            "<strong>Independent Full-Stack Developer</strong>",
-            "<strong>Author</strong> of reflective and literary works",
-            "<strong>Creator of Introversoul</strong>, an introspective music project",
+            "<strong>Founder</strong> of FlagoDNA",
+            "<strong>Software Developer</strong>",
+            "<strong>Author</strong>",
+          ],
+        },
+
+        {
+          title: "Core Focus",
+          paragraphs: [
+            "Privacy-first software",
+            "Applications for Muslim life",
+            "Independent development",
+            "Long-term digital sustainability",
           ],
         },
       ],
     },
 
     {
-      title: "Verified Profiles and Public Identity Graph",
+      title: "Verified Profiles and Public Identity",
       paragraphs: [
-        "Cahyanudien Aziz Saputra maintains a growing public identity across software, authorship, music-oriented creator work, and structured knowledge platforms. These references help connect his work as the founder of FlagoDNA, an independent developer, an author, and the creator of Introversoul under one consistent public identity.",
-        "For search engines and public references, the strongest signals are his official website, FlagoDNA founder presence, technical repositories, music platform references, researcher identifiers, and structured data profiles that reinforce name consistency across the web.",
+        "Cahyanudien Aziz Saputra maintains a public presence across official websites, software development platforms, author profiles, and structured knowledge bases. Together, these profiles help establish a consistent identity as the founder of FlagoDNA, an independent software developer, and an author.",
+
+        "His official website, FlagoDNA, GitHub repositories, and knowledge profiles provide authoritative references that connect his software projects, publications, and professional work under a single public identity.",
       ],
+
       subSections: [
         {
-          title: "Official and Core Profiles",
+          title: "Official Profiles",
           paragraphs: [
             "<strong>Personal Website:</strong> <a href='https://www.cahyanudien.site/' target='_blank' rel='me noopener noreferrer'>cahyanudien.site</a>",
             "<strong>FlagoDNA:</strong> <a href='https://flagodna.com/' target='_blank' rel='me noopener noreferrer'>flagodna.com</a>",
-            "<strong>FlagoDNA Team:</strong> <a href='https://flagodna.com/teams/' target='_blank' rel='noopener noreferrer'>Founder listing</a>",
-            "<strong>GitHub (main):</strong> <a href='https://github.com/cas8398' target='_blank' rel='me noopener noreferrer'>github.com/cas8398</a>",
-            "<strong>GitHub (secondary / organization):</strong> <a href='https://github.com/cahyanudien' target='_blank' rel='me noopener noreferrer'>github.com/cahyanudien</a>",
+            "<strong>FlagoDNA Team:</strong> <a href='https://flagodna.com/teams/' target='_blank' rel='noopener noreferrer'>The People Behind FlagoDNA</a>",
+            "<strong>GitHub:</strong> <a href='https://github.com/cas8398' target='_blank' rel='me noopener noreferrer'>github.com/cas8398</a>",
+            "<strong>GitHub Organization:</strong> <a href='https://github.com/cahyanudien' target='_blank' rel='me noopener noreferrer'>github.com/cahyanudien</a>",
           ],
         },
+
         {
-          title: "Structured and Knowledge Profiles",
+          title: "Knowledge Profiles",
           paragraphs: [
             "<strong>Google Knowledge Graph:</strong> <a href='https://www.google.com/search?kgmid=/g/11z1tf3blz' target='_blank' rel='me noopener noreferrer'>/g/11z1tf3blz</a>",
             "<strong>ORCID:</strong> <a href='https://orcid.org/0009-0007-5983-9221' target='_blank' rel='me noopener noreferrer'>0009-0007-5983-9221</a>",
@@ -285,36 +271,29 @@ export const profile = {
             "<strong>Wikiquote:</strong> <a href='https://en.wikiquote.org/wiki/Cahyanudien_Aziz_Saputra' target='_blank' rel='noopener noreferrer'>Cahyanudien Aziz Saputra</a>",
           ],
         },
-        {
-          title: "Creative and Music References",
-          paragraphs: [
-            "<strong>Introversoul About:</strong> <a href='https://introversoul-music.blogspot.com/p/about-us.html' target='_blank' rel='noopener noreferrer'>Introversoul / About</a>",
-            "<strong>Spotify Artist:</strong> <a href='https://open.spotify.com/artist/4BN5wcsLXapCKgy4CzMjzf' target='_blank' rel='me noopener noreferrer'>Introversoul on Spotify</a>",
-            "<strong>Apple Music:</strong> <a href='https://music.apple.com/us/artist/introversoul/1877195012' target='_blank' rel='me noopener noreferrer'>Introversoul on Apple Music</a>",
-            "<strong>YouTube Music:</strong> <a href='https://music.youtube.com/channel/UCM_5i_cjiW96AvvGWY8PNgg' target='_blank' rel='me noopener noreferrer'>Introversoul on YouTube Music</a>",
-            "<strong>SoundCloud:</strong> <a href='https://soundcloud.com/introversoul' target='_blank' rel='me noopener noreferrer'>Introversoul on SoundCloud</a>",
-          ],
-        },
       ],
     },
 
     {
-      title: "Philosophy and Creative Direction",
+      title: "Philosophy",
       paragraphs: [
-        "A recurring phrase associated with Cahyanudien's public work is <strong>Mlampah Ing Tresno</strong> — a philosophy of building, creating, and continuing with care. It reflects a broader preference for meaningful progress over speed, noise, or attention-driven design.",
-        "Across software, writing, and public creative work, the through-line is consistent: build quietly, ship honestly, avoid unnecessary manipulation, and create work that remains useful or meaningful beyond the launch moment.",
-        "This coherence is part of what makes his public identity distinctive. Rather than separating technology from authorship or artistic expression, his work presents them as connected forms of long-term creation.",
+        "A recurring phrase associated with Cahyanudien Aziz Saputra's work is <strong>Mlampah Ing Tresno</strong>—a Javanese expression that reflects his philosophy of creating with care, patience, and long-term purpose.",
+
+        "Across software, writing, and publishing, the same principles remain consistent: build quietly, respect users, avoid unnecessary complexity, and create work that continues to be useful long after it is released.",
+
+        "Rather than treating technology and writing as separate pursuits, he approaches both as complementary ways of creating meaningful work that endures over time.",
       ],
+
       subSections: [
         {
-          title: "Core Identity Themes",
+          title: "Core Principles",
           paragraphs: [
             "<strong>Privacy-first software</strong>",
-            "<strong>Calm and intentional product design</strong>",
-            "<strong>Independent creator ownership</strong>",
-            "<strong>Reflective writing and long-form storytelling</strong>",
-            "<strong>Introspective music and artistic expression</strong>",
-            "<strong>Mlampah Ing Tresno as a long-term creative philosophy</strong>",
+            "<strong>Simple and intentional design</strong>",
+            "<strong>Independent development</strong>",
+            "<strong>Thoughtful writing and publishing</strong>",
+            "<strong>Long-term digital sustainability</strong>",
+            "<strong>Mlampah Ing Tresno</strong>",
           ],
         },
       ],
@@ -323,10 +302,11 @@ export const profile = {
     {
       title: "Official Websites",
       paragraphs: [
-        "The official personal website for <strong>Cahyanudien Aziz Saputra</strong> is <a href='https://www.cahyanudien.site/' target='_blank' rel='me noopener noreferrer'>cahyanudien.site</a>.",
-        "The broader company and product ecosystem associated with him is <a href='https://flagodna.com/' target='_blank' rel='me noopener noreferrer'>FlagoDNA</a>.",
-        "A public creative and music-oriented project associated with his artistic identity is <a href='https://introversoul-music.blogspot.com/' target='_blank' rel='me noopener noreferrer'>Introversoul</a>.",
-        "Together, these websites serve as the primary public references for understanding who Cahyanudien Aziz Saputra is across software, writing, music, and independent creator-led digital work.",
+        "The official personal website of <strong>Cahyanudien Aziz Saputra</strong> is <a href='https://www.cahyanudien.site/' target='_blank' rel='me noopener noreferrer'>cahyanudien.site</a>.",
+
+        "His software projects, products, and publications are developed under <a href='https://flagodna.com/' target='_blank' rel='me noopener noreferrer'>FlagoDNA</a>, an independent software studio focused on privacy-first applications for Muslim life.",
+
+        "Together, these websites serve as the primary public references for his work as a founder, software developer, and author.",
       ],
     },
   ],
