@@ -162,3 +162,93 @@ renderCards("about-grid", about);
 renderCards("books-grid", books);
 renderCards("apps-grid", apps);
 renderCards("profiles-grid", profiles);
+
+// ========================================
+// GENERATE FAB AND MODAL DYNAMICALLY
+// ========================================
+
+// Create FAB
+const fab = document.createElement("button");
+fab.className = "fab-contact";
+fab.id = "fabContact";
+fab.setAttribute("aria-label", "Contact me");
+fab.textContent = "Contact Me ✉️";
+document.body.appendChild(fab);
+
+// Create Modal
+const modal = document.createElement("div");
+modal.className = "modal-overlay";
+modal.id = "contactModal";
+modal.innerHTML = `
+  <div class="modal-card">
+    <div class="modal-header">
+      <h2>📬 Contact Me</h2>
+      <button class="modal-close" id="modalClose">✕</button>
+    </div>
+    <div class="modal-body">
+      <!-- Email -->
+      <a href="mailto:cas8398@duck.com" class="contact-item">
+        <span class="contact-emoji">📧</span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">cas8398@duck.com →</span>
+      </a>
+      <!-- LinkedIn -->
+      <a
+        href="https://linkedin.com/in/cahyanudien"
+        target="_blank"
+        rel="noopener"
+        class="contact-item"
+      >
+        <span class="contact-emoji">💼</span>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">@cahyanudien ↗</span>
+      </a>
+      <!-- X / Twitter -->
+      <a
+        href="https://x.com/cas8398"
+        target="_blank"
+        rel="noopener"
+        class="contact-item"
+      >
+        <span class="contact-emoji">🐦</span>
+        <span class="contact-label">X (Twitter)</span>
+        <span class="contact-value">@cas8398 ↗</span>
+      </a>
+    </div>
+    <div class="modal-footer-note">💬 I reply within 24h</div>
+  </div>
+`;
+document.body.appendChild(modal);
+
+// ===== FAB + MODAL functionality =====
+const fabButton = document.getElementById("fabContact");
+const modalElement = document.getElementById("contactModal");
+const closeBtn = document.getElementById("modalClose");
+
+function openModal() {
+  modalElement.classList.add("active");
+  document.body.style.overflow = "hidden";
+}
+
+function closeModal() {
+  modalElement.classList.remove("active");
+  document.body.style.overflow = "";
+}
+
+// Open modal on FAB click
+fabButton.addEventListener("click", openModal);
+
+// Close modal on X button
+closeBtn.addEventListener("click", closeModal);
+
+// Close modal when clicking outside
+modalElement.addEventListener("click", function (e) {
+  if (e.target === modalElement) closeModal();
+});
+
+// Close modal with Escape key
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && modalElement.classList.contains("active")) {
+    closeModal();
+  }
+});
