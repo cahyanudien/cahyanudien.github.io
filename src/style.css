@@ -411,9 +411,6 @@
         line-height: 1;
         letter-spacing: 0.3px;
         white-space: nowrap;
-        /* Center it relative to container */
-        left: 50%;
-        transform: translateX(-50%);
       }
 
       @media (max-width: 750px) {
