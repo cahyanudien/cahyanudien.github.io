@@ -54,7 +54,7 @@ export const schemaData = {
       },
 
       description:
-        "Cahyanudien Aziz Saputra is an Indonesian full-stack developer, author, musician, and founder of FlagoDNA. Known for privacy-first software, Islamic applications, contemplative literature, and the Introversoul music project.",
+        "Cahyanudien Aziz Saputra is an Indonesian software engineer, founder of FlagoDNA, and author. He is known for building privacy-first software, cross-platform applications, and writing books on philosophy, technology, and the inner life.",
 
       knowsLanguage: ["en", "id"],
 
@@ -74,7 +74,7 @@ export const schemaData = {
         "Knowledge Graph",
       ],
 
-      jobTitle: ["Full-Stack Developer", "Author", "Musician", "Founder"],
+      jobTitle: ["Full-Stack Developer", "Author", "Founder"],
 
       worksFor: {
         "@id": "https://flagodna.com/#organization",
@@ -105,12 +105,6 @@ export const schemaData = {
         "https://www.researchgate.net/profile/Cahyanudien-Saputra-2",
         "https://dev.to/cas8398",
         "https://medium.com/@cas8398",
-        "https://open.spotify.com/artist/4BN5wcsLXapCKgy4CzMjzf",
-        "https://music.apple.com/us/artist/introversoul/1877195012",
-        "https://music.youtube.com/channel/UCM_5i_cjiW96AvvGWY8PNgg",
-        "https://soundcloud.com/introversoul",
-        "https://instagram.com/introversoul.music",
-        "https://x.com/introversoul",
       ],
 
       subjectOf: [
@@ -150,36 +144,6 @@ export const schemaData = {
       sameAs: [
         "https://github.com/flagodna",
         "https://play.google.com/store/apps/dev?id=FlagoDNA",
-      ],
-    },
-
-    // MUSIC PROJECT
-    {
-      "@type": "MusicGroup",
-      "@id": "https://www.wikidata.org/wiki/Q138609374",
-
-      name: "Introversoul",
-
-      alternateName: ["IntroverSoul", "introversoul music"],
-
-      founder: {
-        "@id": "https://www.cahyanudien.site/#person",
-      },
-
-      genre: ["Ambient", "Experimental", "Atmospheric music"],
-
-      description:
-        "Introversoul is an introspective music project created by Cahyanudien Aziz Saputra.",
-
-      url: "https://open.spotify.com/artist/4BN5wcsLXapCKgy4CzMjzf",
-
-      sameAs: [
-        "https://open.spotify.com/artist/4BN5wcsLXapCKgy4CzMjzf",
-        "https://music.apple.com/us/artist/introversoul/1877195012",
-        "https://music.youtube.com/channel/UCM_5i_cjiW96AvvGWY8PNgg",
-        "https://soundcloud.com/introversoul",
-        "https://instagram.com/introversoul.music",
-        "https://x.com/introversoul",
       ],
     },
 

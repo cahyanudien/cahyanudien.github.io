@@ -411,6 +411,14 @@
         line-height: 1;
         letter-spacing: 0.3px;
         white-space: nowrap;
+
+      }
+
+      .hero-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 16px;
+        margin: 32px 0;
       }
 
       @media (max-width: 750px) {

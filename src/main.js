@@ -31,14 +31,7 @@ document.querySelector("#app").innerHTML = `
     <div class="bio">
       <p>
         ${profile.bio}
-      </p>
-
-      <p class="small-note">
-        ${profile.skills} →
-        <a href="${profile.githubUrl}" target="_blank" rel="noopener noreferrer">
-          ${profile.githubHandle}
-        </a>
-      </p>
+      </p> 
 
     <p class="small-note">
       👋 Want to know more? →
@@ -53,6 +46,42 @@ document.querySelector("#app").innerHTML = `
         Visit My Blog
       </a>
     </p>
+
+    <div class="hero-stats">
+        <div class="card multi"> 
+       <a 
+        href="${profile.urlDownload}" 
+        target="_blank" 
+        rel="noopener">
+            <span class="card-title"> ${profile.statsDownload}</span>
+            <span class="card-desc">Downloads</span> 
+          </a> 
+          </div>
+        <div class="card multi">
+       <a 
+        href="${profile.urlApps}" 
+        target="_blank" 
+        rel="noopener">
+            <span class="card-title"> ${profile.statsApps}</span>
+            <span class="card-desc"> Applications</span>  </a> 
+          </div> 
+        <div class="card multi">
+       <a 
+        href="${profile.urlPubdev}" 
+        target="_blank" 
+        rel="noopener">
+            <span class="card-title"> ${profile.statsPubdev}</span>
+            <span class="card-desc">pub.dev Packages</span>  </a> 
+          </div>
+        <div class="card multi">
+       <a 
+        href="${profile.urlNPM}" 
+        target="_blank" 
+        rel="noopener">
+            <span class="card-title"> ${profile.statsNPM}</span>
+            <span class="card-desc">NPM Packages</span>  </a> 
+          </div>
+    </div>
     </div>
 
     <!-- PROJECTS SECTION -->
@@ -67,14 +96,15 @@ document.querySelector("#app").innerHTML = `
     </section>
 
     <section>
-      <h2 class="section-label" style="margin-top: 1.8rem">📚 BOOKS</h2>
-      <div class="card-grid" id="books-grid"></div>
-    </section>
-
-    <section>
       <h2 class="section-label" style="margin-top: 1.8rem">🚀 APPS</h2>
       <div class="card-grid" id="apps-grid"></div>
     </section> 
+
+
+    <section>
+      <h2 class="section-label" style="margin-top: 1.8rem">📚 BOOKS</h2>
+      <div class="card-grid" id="books-grid"></div>
+    </section>
 
     <section>
       <h2 class="section-label" style="margin-top: 1.8rem">🆔 PROFILES</h2>
