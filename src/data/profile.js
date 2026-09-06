@@ -3,7 +3,7 @@ export const profile = {
 
   tagline: "Founder of FlagoDNA · Developer · Author",
 
-  bio: "Founder of FlagoDNA, building <strong>privacy-first and offline-first</strong> software across Android, desktop, and web. Since 2020, his products have reached <strong>77K+ users</strong> while remaining independent and ad-free.",
+  bio: "Founder of FlagoDNA, building <strong>privacy-first and offline-first</strong> software across Android, desktop, and web. Since 2020, his products have reached <strong>80K+ users</strong> while remaining independent and ad-free.",
 
   skills: "Kotlin · Flutter · Python · TypeScript · SQLite",
 
@@ -13,7 +13,7 @@ export const profile = {
   linkedinHandle: "linkedin.com/in/cahyanudien",
   linkedinUrl: "https://linkedin.com/in/cahyanudien",
 
-  statsDownload: "77K+",
+  statsDownload: "80K+",
   statsApps: "15+",
   statsPubdev: "9",
   statsNPM: "2",

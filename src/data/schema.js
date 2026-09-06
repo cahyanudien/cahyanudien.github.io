@@ -151,117 +151,153 @@ export const schemaData = {
 
     {
       "@type": "Book",
-      "@id":
-        "https://books.apple.com/us/book/stillness-that-walks/id6760230977",
-
+      "@id": "https://www.cahyanudien.site/stillness-that-walks/#book",
       name: "Stillness that Walks",
-
+      isbn: "9798233323478",
+      url: "https://www.cahyanudien.site/stillness-that-walks/",
+      sameAs: [
+        "https://search.worldcat.org/title/1579545871",
+        "https://books.google.com/books?id=PhHGEQAAQBAJ",
+        "https://play.google.com/store/books/details?id=PhHGEQAAQBAJ",
+        "https://www.amazon.com/dp/B0GRCVR9PV",
+        "https://books.apple.com/us/book/stillness-that-walks/id6760230977",
+        "https://www.goodreads.com/book/show/249343144-stillness-that-walks",
+        "https://www.goodreads.com/book/show/249471367-stillness-that-walks",
+      ],
       author: {
         "@id": "https://www.cahyanudien.site/#person",
       },
-
       publisher: {
         "@id": "https://flagodna.com/#organization",
       },
-
       inLanguage: "en",
-
       genre: "Philosophical Poetry",
-
-      url: "https://books.apple.com/us/book/stillness-that-walks/id6760230977",
-
       workExample: [
         {
           "@type": "Book",
           bookFormat: "https://schema.org/EBook",
-
-          potentialAction: {
-            "@type": "ReadAction",
-            target: "https://www.amazon.com/dp/B0GRCVR9PV",
-          },
+          potentialAction: [
+            {
+              "@type": "ReadAction",
+              target: "https://books.google.com/books?id=PhHGEQAAQBAJ",
+            },
+            {
+              "@type": "ReadAction",
+              target: "https://www.amazon.com/dp/B0GRCVR9PV",
+            },
+          ],
         },
       ],
     },
 
     {
       "@type": "Book",
-
-      "@id": "https://play.google.com/store/books/details?id=xOfFEQAAQBAJ",
-
+      "@id": "https://www.cahyanudien.site/hening-yang-berjalan/#book",
       name: "Hening yang Berjalan",
-
+      isbn: "9798233376382",
+      url: "https://www.cahyanudien.site/hening-yang-berjalan/",
+      sameAs: [
+        "https://search.worldcat.org/title/1579137946",
+        "https://books.google.com/books?id=xOfFEQAAQBAJ",
+        "https://play.google.com/store/books/details?id=xOfFEQAAQBAJ",
+        "https://books.apple.com/us/book/hening-yang-berjalan/id6760232604",
+        "https://www.kobo.com/au/en/ebook/hening-yang-berjalan",
+        "https://www.goodreads.com/book/show/251506987-hening-yang-berjalan",
+      ],
       author: {
         "@id": "https://www.cahyanudien.site/#person",
       },
-
       publisher: {
         "@id": "https://flagodna.com/#organization",
       },
-
       inLanguage: "id",
-
       genre: "Puisi Filosofis",
-
-      url: "https://play.google.com/store/books/details?id=xOfFEQAAQBAJ",
-    },
-
-    {
-      "@type": "Book",
-
-      "@id": "https://www.amazon.com/dp/B0GS224DVW",
-
-      name: "ACHE: What Kind of Life Is This?",
-
-      author: {
-        "@id": "https://www.cahyanudien.site/#person",
-      },
-
-      publisher: {
-        "@id": "https://flagodna.com/#organization",
-      },
-
-      inLanguage: "en",
-
-      genre: "Literary Fiction",
-
-      url: "https://www.amazon.com/dp/B0GS224DVW",
-
       workExample: [
         {
           "@type": "Book",
-
           bookFormat: "https://schema.org/EBook",
-
-          potentialAction: {
-            "@type": "ReadAction",
-
-            target:
-              "https://books.apple.com/us/book/ache-what-kind-of-life-is-this/id6760345441",
-          },
+          potentialAction: [
+            {
+              "@type": "ReadAction",
+              target: "https://books.google.com/books?id=xOfFEQAAQBAJ",
+            },
+          ],
         },
       ],
     },
 
     {
       "@type": "Book",
-
-      "@id": "https://play.google.com/store/books/details?id=orPHEQAAQBAJ",
-
-      name: "ACHE: Hidup Seperti Apa Ini?",
-
+      "@id":
+        "https://www.cahyanudien.site/ache-what-kind-of-life-is-this/#book",
+      name: "ACHE: What Kind of Life Is This?",
+      isbn: "9798233622281",
+      url: "https://www.cahyanudien.site/ache-what-kind-of-life-is-this/",
+      sameAs: [
+        "https://search.worldcat.org/title/1579547571",
+        "https://books.google.com/books?id=9dTHEQAAQBAJ",
+        "https://play.google.com/store/books/details?id=9dTHEQAAQBAJ",
+        "https://books.apple.com/us/book/ache-what-kind-of-life-is-this/id6760345441",
+        "https://www.amazon.com/dp/B0GS224DVW",
+        "https://www.kobo.com/au/en/ebook/ache-what-kind-of-life-is-this",
+        "https://www.goodreads.com/book/show/249524075-ache",
+      ],
       author: {
         "@id": "https://www.cahyanudien.site/#person",
       },
-
       publisher: {
         "@id": "https://flagodna.com/#organization",
       },
+      inLanguage: "en",
+      genre: "Literary Fiction",
+      workExample: [
+        {
+          "@type": "Book",
+          bookFormat: "https://schema.org/EBook",
+          potentialAction: [
+            {
+              "@type": "ReadAction",
+              target: "https://books.google.com/books?id=9dTHEQAAQBAJ",
+            },
+          ],
+        },
+      ],
+    },
 
+    {
+      "@type": "Book",
+      "@id": "https://www.cahyanudien.site/ache-hidup-seperti-apa-ini/#book",
+      name: "ACHE: Hidup Seperti Apa Ini?",
+      isbn: "9798233600487",
+      url: "https://www.cahyanudien.site/ache-hidup-seperti-apa-ini/",
+      sameAs: [
+        "https://search.worldcat.org/title/1579543081",
+        "https://books.google.com/books?id=orPHEQAAQBAJ",
+        "https://play.google.com/store/books/details?id=orPHEQAAQBAJ",
+        "https://books.apple.com/us/book/ache-hidup-seperti-apa-ini/id6760401307",
+        "https://www.kobo.com/au/en/ebook/ache-hidup-seperti-apa-ini",
+        "https://www.goodreads.com/book/show/251507054-ache",
+      ],
+      author: {
+        "@id": "https://www.cahyanudien.site/#person",
+      },
+      publisher: {
+        "@id": "https://flagodna.com/#organization",
+      },
       inLanguage: "id",
-
       genre: "Fiksi Literer",
-
-      url: "https://play.google.com/store/books/details?id=orPHEQAAQBAJ",
+      workExample: [
+        {
+          "@type": "Book",
+          bookFormat: "https://schema.org/EBook",
+          potentialAction: [
+            {
+              "@type": "ReadAction",
+              target: "https://books.google.com/books?id=orPHEQAAQBAJ",
+            },
+          ],
+        },
+      ],
     },
 
     // APPS
