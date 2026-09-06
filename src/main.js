@@ -244,6 +244,17 @@ modal.innerHTML = `
         <span class="contact-label">X (Twitter)</span>
         <span class="contact-value">@cas8398 ↗</span>
       </a>
+      <!-- Bluesky -->
+      <a
+        href="https://bsky.app/profile/cahyanudien.site"
+        target="_blank"
+        rel="noopener"
+        class="contact-item"
+      >
+        <span class="contact-emoji">🦋</span>
+        <span class="contact-label">Bluesky</span>
+        <span class="contact-value">@cahyanudien.site ↗</span>
+      </a>
     </div>
     <div class="modal-footer-note">💬 I reply within 24h</div>
   </div>
