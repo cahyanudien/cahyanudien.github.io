@@ -125,6 +125,8 @@ export const schemaData = [
 
     sameAs: [
       "https://flagodna.com",
+      "https://flagodna.com/cahyanudien-aziz-saputra/",
+      "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
       "https://github.com/cas8398",
       "https://github.com/cahyanudien",
       "https://linkedin.com/in/cahyanudien",
@@ -642,8 +644,13 @@ export const schemaData = [
     },
 
     sameAs: [
-      "https://www.amazon.com/dp/B0GRCVR9PV",
+      "https://search.worldcat.org/title/1579545871",
+      "https://books.google.com/books?id=PhHGEQAAQBAJ",
       "https://play.google.com/store/books/details?id=PhHGEQAAQBAJ",
+      "https://www.amazon.com/dp/B0GRCVR9PV",
+      "https://books.apple.com/us/book/stillness-that-walks/id6760230977",
+      "https://www.goodreads.com/book/show/249343144-stillness-that-walks",
+      "https://www.goodreads.com/book/show/249471367-stillness-that-walks",
     ],
   },
 
@@ -672,7 +679,14 @@ export const schemaData = [
       "@id": "https://flagodna.com/#organization",
     },
 
-    sameAs: ["https://play.google.com/store/books/details?id=xOfFEQAAQBAJ"],
+    sameAs: [
+      "https://search.worldcat.org/title/1579137946",
+      "https://books.google.com/books?id=xOfFEQAAQBAJ",
+      "https://play.google.com/store/books/details?id=xOfFEQAAQBAJ",
+      "https://books.apple.com/us/book/hening-yang-berjalan/id6760232604",
+      "https://www.kobo.com/au/en/ebook/hening-yang-berjalan",
+      "https://www.goodreads.com/book/show/251506987-hening-yang-berjalan",
+    ],
   },
 
   {
@@ -701,7 +715,15 @@ export const schemaData = [
       "@id": "https://flagodna.com/#organization",
     },
 
-    sameAs: ["https://play.google.com/store/books/details?id=9dTHEQAAQBAJ"],
+    sameAs: [
+      "https://search.worldcat.org/title/1579547571",
+      "https://books.google.com/books?id=9dTHEQAAQBAJ",
+      "https://play.google.com/store/books/details?id=9dTHEQAAQBAJ",
+      "https://books.apple.com/us/book/ache-what-kind-of-life-is-this/id6760345441",
+      "https://www.amazon.com/dp/B0GS224DVW",
+      "https://www.kobo.com/au/en/ebook/ache-what-kind-of-life-is-this",
+      "https://www.goodreads.com/book/show/249524075-ache",
+    ],
   },
 
   {
@@ -729,7 +751,14 @@ export const schemaData = [
       "@id": "https://flagodna.com/#organization",
     },
 
-    sameAs: ["https://play.google.com/store/books/details?id=orPHEQAAQBAJ"],
+    sameAs: [
+      "https://search.worldcat.org/title/1579543081",
+      "https://books.google.com/books?id=orPHEQAAQBAJ",
+      "https://play.google.com/store/books/details?id=orPHEQAAQBAJ",
+      "https://books.apple.com/us/book/ache-hidup-seperti-apa-ini/id6760401307",
+      "https://www.kobo.com/au/en/ebook/ache-hidup-seperti-apa-ini",
+      "https://www.goodreads.com/book/show/251507054-ache",
+    ],
   },
 
   // ------------------------------------------------

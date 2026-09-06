@@ -26,7 +26,6 @@ export const schemaData = {
         "Cahyanudin AS",
         "Cahya Nudien",
         "Cahya Nudin",
-        "Introversoul",
         "Wayang",
         "cas8398",
       ],

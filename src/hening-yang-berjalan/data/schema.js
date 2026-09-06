@@ -93,12 +93,13 @@ export const schemaData = [
 
       name: "Cahyanudien Aziz Saputra",
 
-      alternateName: ["Cahyanudien", "Cahyanudin", "Introversoul"],
+      alternateName: ["Cahyanudien", "Cahyanudin"],
 
       url: "https://www.cahyanudien.site",
 
       sameAs: [
-        "https://flagodna.com",
+        "https://flagodna.com/cahyanudien-aziz-saputra/",
+        "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
         "https://github.com/cahyanudien",
         "https://github.com/cas8398",
         "https://linkedin.com/in/cahyanudien",
@@ -135,7 +136,6 @@ export const schemaData = [
       "Hening yang Berjalan Pesan dalam Pesan",
       "Cahyanudien Aziz Saputra",
       "Cahyanudien",
-      "Introversoul",
       "puisi kontemplatif",
       "puisi reflektif",
       "puisi filosofis",
@@ -200,8 +200,12 @@ export const schemaData = [
     ],
 
     sameAs: [
+      "https://search.worldcat.org/title/1579137946",
+      "https://books.google.com/books?id=xOfFEQAAQBAJ",
       "https://play.google.com/store/books/details?id=xOfFEQAAQBAJ",
       "https://books.apple.com/us/book/hening-yang-berjalan/id6760232604",
+      "https://www.kobo.com/au/en/ebook/hening-yang-berjalan",
+      "https://www.goodreads.com/book/show/251506987-hening-yang-berjalan",
     ],
   },
 
@@ -217,7 +221,7 @@ export const schemaData = [
 
     name: "Cahyanudien Aziz Saputra",
 
-    alternateName: ["Cahyanudien", "Cahyanudin", "Introversoul", "cas8398"],
+    alternateName: ["Cahyanudien", "Cahyanudin", "cas8398"],
 
     url: "https://www.cahyanudien.site",
 
@@ -239,7 +243,8 @@ export const schemaData = [
     },
 
     sameAs: [
-      "https://flagodna.com",
+      "https://flagodna.com/cahyanudien-aziz-saputra/",
+      "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
       "https://github.com/cahyanudien",
       "https://github.com/cas8398",
       "https://linkedin.com/in/cahyanudien",

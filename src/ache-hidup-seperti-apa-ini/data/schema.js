@@ -119,12 +119,13 @@ export const schemaData = [
 
       name: "Cahyanudien Aziz Saputra",
 
-      alternateName: ["Cahyanudien", "Cahyanudin", "Introversoul"],
+      alternateName: ["Cahyanudien", "Cahyanudin"],
 
       url: "https://www.cahyanudien.site",
 
       sameAs: [
-        "https://flagodna.com",
+        "https://flagodna.com/cahyanudien-aziz-saputra/",
+        "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
         "https://github.com/cahyanudien",
         "https://github.com/cas8398",
         "https://linkedin.com/in/cahyanudien",
@@ -169,7 +170,6 @@ export const schemaData = [
       "kesepian urban",
       "kehidupan yang meleset",
       "fiction Indonesia",
-      "Introversoul",
     ],
 
     inLanguage: "id",
@@ -225,9 +225,12 @@ export const schemaData = [
     ],
 
     sameAs: [
+      "https://search.worldcat.org/title/1579543081",
+      "https://books.google.com/books?id=orPHEQAAQBAJ",
       "https://play.google.com/store/books/details?id=orPHEQAAQBAJ",
       "https://books.apple.com/us/book/ache-hidup-seperti-apa-ini/id6760401307",
-      "https://books.google.com/books?id=orPHEQAAQBAJ",
+      "https://www.kobo.com/au/en/ebook/ache-hidup-seperti-apa-ini",
+      "https://www.goodreads.com/book/show/251507054-ache",
     ],
   },
 
@@ -243,7 +246,7 @@ export const schemaData = [
 
     name: "Cahyanudien Aziz Saputra",
 
-    alternateName: ["Cahyanudien", "Cahyanudin", "Introversoul", "cas8398"],
+    alternateName: ["Cahyanudien", "Cahyanudin", "cas8398"],
 
     url: "https://www.cahyanudien.site",
 
@@ -265,7 +268,8 @@ export const schemaData = [
     },
 
     sameAs: [
-      "https://flagodna.com",
+      "https://flagodna.com/cahyanudien-aziz-saputra/",
+      "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
       "https://github.com/cahyanudien",
       "https://github.com/cas8398",
       "https://linkedin.com/in/cahyanudien",

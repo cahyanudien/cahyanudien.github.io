@@ -93,12 +93,13 @@ export const schemaData = [
 
       name: "Cahyanudien Aziz Saputra",
 
-      alternateName: ["Cahyanudien", "Cahyanudin", "Introversoul"],
+      alternateName: ["Cahyanudien", "Cahyanudin"],
 
       url: "https://www.cahyanudien.site",
 
       sameAs: [
-        "https://flagodna.com",
+        "https://flagodna.com/cahyanudien-aziz-saputra/",
+        "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
         "https://github.com/cahyanudien",
         "https://github.com/cas8398",
         "https://linkedin.com/in/cahyanudien",
@@ -135,7 +136,6 @@ export const schemaData = [
       "Stillness That Walks message within message",
       "Cahyanudien Aziz Saputra",
       "Cahyanudien",
-      "Introversoul",
       "philosophical poetry",
       "contemplative poetry",
       "reflective poetry",
@@ -213,9 +213,13 @@ export const schemaData = [
     ],
 
     sameAs: [
-      "https://www.amazon.com/dp/B0GRCVR9PV",
+      "https://search.worldcat.org/title/1579545871",
+      "https://books.google.com/books?id=PhHGEQAAQBAJ",
       "https://play.google.com/store/books/details?id=PhHGEQAAQBAJ",
+      "https://www.amazon.com/dp/B0GRCVR9PV",
       "https://books.apple.com/us/book/stillness-that-walks/id6760230977",
+      "https://www.goodreads.com/book/show/249343144-stillness-that-walks",
+      "https://www.goodreads.com/book/show/249471367-stillness-that-walks",
     ],
   },
 
@@ -231,7 +235,7 @@ export const schemaData = [
 
     name: "Cahyanudien Aziz Saputra",
 
-    alternateName: ["Cahyanudien", "Cahyanudin", "Introversoul", "cas8398"],
+    alternateName: ["Cahyanudien", "Cahyanudin", "cas8398"],
 
     url: "https://www.cahyanudien.site",
 
@@ -254,7 +258,8 @@ export const schemaData = [
     },
 
     sameAs: [
-      "https://flagodna.com",
+      "https://flagodna.com/cahyanudien-aziz-saputra/",
+      "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
       "https://github.com/cahyanudien",
       "https://github.com/cas8398",
       "https://linkedin.com/in/cahyanudien",

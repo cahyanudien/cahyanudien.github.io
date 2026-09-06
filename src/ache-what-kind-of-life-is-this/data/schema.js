@@ -102,12 +102,13 @@ export const schemaData = [
 
       name: "Cahyanudien Aziz Saputra",
 
-      alternateName: ["Cahyanudien", "Cahyanudin", "Introversoul"],
+      alternateName: ["Cahyanudien", "Cahyanudin"],
 
       url: "https://www.cahyanudien.site",
 
       sameAs: [
-        "https://flagodna.com",
+        "https://flagodna.com/cahyanudien-aziz-saputra/",
+        "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
         "https://github.com/cahyanudien",
         "https://github.com/cas8398",
         "https://linkedin.com/in/cahyanudien",
@@ -150,7 +151,6 @@ export const schemaData = [
       "psychological fiction",
       "urban loneliness",
       "reflective fiction",
-      "Introversoul",
     ],
 
     inLanguage: "en",
@@ -233,9 +233,13 @@ export const schemaData = [
     ],
 
     sameAs: [
-      "https://www.amazon.com/dp/B0GS224DVW",
+      "https://search.worldcat.org/title/1579547571",
+      "https://books.google.com/books?id=9dTHEQAAQBAJ",
       "https://play.google.com/store/books/details?id=9dTHEQAAQBAJ",
       "https://books.apple.com/us/book/ache-what-kind-of-life-is-this/id6760345441",
+      "https://www.amazon.com/dp/B0GS224DVW",
+      "https://www.kobo.com/au/en/ebook/ache-what-kind-of-life-is-this",
+      "https://www.goodreads.com/book/show/249524075-ache",
     ],
   },
 
@@ -251,7 +255,7 @@ export const schemaData = [
 
     name: "Cahyanudien Aziz Saputra",
 
-    alternateName: ["Cahyanudien", "Cahyanudin", "Introversoul", "cas8398"],
+    alternateName: ["Cahyanudien", "Cahyanudin", "cas8398"],
 
     url: "https://www.cahyanudien.site",
 
@@ -273,7 +277,8 @@ export const schemaData = [
     },
 
     sameAs: [
-      "https://flagodna.com",
+      "https://flagodna.com/cahyanudien-aziz-saputra/",
+      "https://www.cahyanudien.site/cahyanudien-aziz-saputra/",
       "https://github.com/cahyanudien",
       "https://github.com/cas8398",
       "https://linkedin.com/in/cahyanudien",
