@@ -217,10 +217,10 @@ modal.innerHTML = `
     </div>
     <div class="modal-body">
       <!-- Email -->
-      <a href="mailto:cas8398@duck.com" class="contact-item">
+      <a href="mailto:cahyanudien@flagodna.com" class="contact-item">
         <span class="contact-emoji">📧</span>
         <span class="contact-label">Email</span>
-        <span class="contact-value">cas8398@duck.com →</span>
+        <span class="contact-value">cahyanudien@flagodna.com →</span>
       </a>
       <!-- LinkedIn -->
       <a
