@@ -142,7 +142,7 @@ document.querySelector("#app").innerHTML = `
     <!-- call to action buttons -->
     <div class="action-row" id="action-row">
       <a href="#purchase-books" class="btn-primary"> Beli buku → </a>
-      <a href="#" class="btn-secondary disabled" onclick="return false;"> ⭐ Goodreads </a>
+      <a href="https://www.goodreads.com/book/show/251507054-ache" target="_blank" class="btn-secondary"> ⭐ Goodreads </a>
     </div>
 
     <!-- footer -->

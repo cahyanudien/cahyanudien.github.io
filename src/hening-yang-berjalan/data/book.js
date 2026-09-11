@@ -28,7 +28,7 @@ export const bookData = {
     untuk dibaca tergesa, tetapi untuk dinikmati dalam diam—di mana setiap
     baris mungkin terasa seperti milikmu sendiri.`,
 
-  videoUrl: "https://www.youtube.com/embed/9e-lZb7sZG0",
+  videoUrl: "https://www.youtube.com/embed/tlBl3XzCBCs",
 
   purchaseLinks: [
     {
@@ -58,13 +58,13 @@ export const bookData = {
     {
       part: "I. AKAR",
       poems: [
-        "1. Risau Rasanya",
-        "2. Benar, aku sudah tertidur hari ini",
-        "3. Entah kenapa, kutersadar di dalam gua",
-        "4. Asin... Sungguh asin yang kurasa",
-        "5. Malam ini terasa hampa",
+        "1. Entah kenapa, kutersadar di dalam gua",
+        "2. Malam ini terasa hampa",
+        "3. Asin... Sungguh asin yang kurasa",
+        "4. Benar, aku sudah tertidur hari ini",
+        "5. Daun ini terus berjatuhan",
         "6. Berat, sungguh berat",
-        "7. Daun ini terus berjatuhan",
+        "7. Risau Rasanya",
         "8. Tertawa, dibalik senyuman rimba",
         "9. Sudah waktunya berkumandang",
         "10. Nak... ayah disini",
